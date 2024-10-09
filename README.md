@@ -68,3 +68,19 @@ The Team behind Liberty Visual:
 The generous Donors:
 
 -Libertonians-
+• Air
+• Anathlyst
+• azakir
+• DavyDarko
+• DonBo
+• Internet Rob
+• Malik Hatsune
+• Nozbig
+• Orangeflea215
+• Raekwon
+• Rifte
+• RockaHorse
+• saffronbun
+• scx1125
+• Teneom
+• Tasty Nut

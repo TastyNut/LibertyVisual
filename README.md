@@ -1,7 +1,3 @@
-
-<p align="center">
-</p>
-
 # Liberty Visual
 
 This Modification of GTA IVs Graphics and Textures aims to make the Game as Realistic Looking as possible. <br>
@@ -40,38 +36,32 @@ Unpack content of the Mod archive to your **Grand Theft Auto IV** root directory
 
 ## Mod Features
 
-### Misc
+### Graphics
+-
 
-- Added an option to customize tree alpha
-- Added an option to customize corona reflection intensity
-- Added an option to fix autoexposure
-- Fixed grass height
-- Fixed camera stuttering while sprinting and turning with a controller
-- Fixed rifle firing delay
-- Added an option to fix rain droplets rendering
-- Improved phone screen resolution
-- Various other fixes, like LOD lights appear at the appropriate time like on the console version
-- Restored auto exposure from consoles
+through ENB:
+-
+through ReShade:
+- Ambient Oclusion through
+- Screen-Space Reflections
+- Ambient Light
 
-### Shaders Changelog
+### Textures
 
-**Special thanks to [Parallellines0451](https://github.com/Parallellines0451) [AssaultKifle47](https://github.com/akifle47), [RaphaelK12](https://github.com/RaphaelK12), [robi29](https://github.com/robi29) and [\_CP_](https://github.com/cpmodding) for directly contributing with fixes, to [Shvab](https://github.com/d3g0n-byte) for making RAGE Shader Editor.**
-
-**Fusion Fix uses dx hook to implement some features. It causes certain 3rd party software to crash/hang the game. To avoid this, Fusion Fix prevents [certain dlls from injecting into the game's process](
 
 # Credits
 <br>
-[Orange Brains](https://www.youtube.com/@MrOrangebrains) - The Original Creator of the Mod who unfortunatly has been inactive for a long time.
+[**Orange Brains**](https://www.youtube.com/@MrOrangebrains) - The Original Creator of the Mod who unfortunatly has been inactive for a long time.
 <br>
 The Team behind Liberty Visual:
 <br>
-[DayL](https://discord.gg/F2NZwbCzmX) finished the Timecycle for the Public Release
+[**DayL**](https://discord.gg/F2NZwbCzmX) finished the Timecycle for the Public Release
 <br>
-Vex is doing the awesome WPL stuff. (Placement of new Objects and Details in the Game)
+**Vex** is doing the awesome WPL stuff. (Placement of new Objects and Details in the Game)
 <br>
-BisonSales is the Guy behind [Project RevIVe](https://discord.gg/Bn99sJX7hb) (Vegetation and Texture Stuff)
+**BisonSales** is the Guy behind [Project RevIVe](https://discord.gg/Bn99sJX7hb) (Vegetation and Texture Stuff)
 <br>
-Tasty Nut is maintaining the GitHub Repository.
+**Tasty Nut** is maintaining the GitHub Repository.
 <br>
 <br>
 The generous Donors:

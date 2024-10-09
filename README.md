@@ -11,12 +11,12 @@ Join the Liberty Visual discord server for more information, help and updates. <
 [![Mod Trailer](https://img.youtube.com/vi/ZXYDLy6IMeQ/maxresdefault.jpg)](https://youtu.be/ZXYDLy6IMeQ)
 
 > [!IMPORTANT]
-> This mod, in its current form, is not meant for doing a playthrough of the game.
-> It enhances the games visuals for video and/or screenshot purposes.
-> If you want to play through GTA IV and EFLC, the best way to do it is [-this-](https://fusionfix on ce).
+> This mod, in its current form, is not meant for doing a playthrough of the game.<br>
+> It enhances the games visuals for video and/or screenshot purposes.<br>
+> If you want to play through GTA IV and EFLC, the best way to do it is [-this-](https://fusionfix.on.ce).<br>
 
 
-## Installation: <br>
+## Installation:
 
 > Download Grand Theft Auto IV: The Complete Edition
 
@@ -28,7 +28,7 @@ Join the Liberty Visual discord server for more information, help and updates. <
 
 > [Download the latest mod release](https://github.com/ClonkAndre/GTAIVDowngrader/releases/download/)
 
-> Unpack the content of the mod archive to your "Grand Theft Auto IV" root directory, where the executable file ("GTAIV.exe") is located.
+> Unpack the the mod archive to your "Grand Theft Auto IV" root directory, where the executable file ("GTAIV.exe") is located.
 
 
 ## Mod Features
@@ -40,6 +40,7 @@ Join the Liberty Visual discord server for more information, help and updates. <
 
 through ENB:
 - Skylighting
+
 through ReShade:
 - Ambient Oclusion
 - Screen-Space Reflections
@@ -63,11 +64,11 @@ The Team behind Liberty Visual:
 
 **BisonSales** is the guy behind [Project RevIVe](https://discord.gg/Bn99sJX7hb) (vegetation and texture ttuff)
 
-[**Tasty Nut**] is maintaining the GitHub Repository.
+[**Tasty Nut**](https://youtube.com/tastynut) is maintaining the GitHub Repository.
 
 The generous Donors:
 
--Libertonians-
+- Libertonians -
 • Air
 • Anathlyst
 • azakir

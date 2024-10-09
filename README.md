@@ -50,9 +50,9 @@ through ReShade:
 
 
 # Credits
-
 <br>
-[Orange Brains](https://www.youtube.com/@MrOrangebrains) - The Original Creator of the Mod who unfortunatly has been inactive for a long time.
+<br>
+[Orange Brains](https://youtube.com/orangebrains) - The Original Creator of the Mod who unfortunatly has been inactive for a long time.
 <br>
 The Team behind Liberty Visual:
 <br>

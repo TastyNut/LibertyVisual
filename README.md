@@ -8,7 +8,7 @@ This Modification of GTA IVs Graphics and Textures aims to make the Game as Real
 It achieves this through utilizing [ENB](http://enbdev.com/download.html) and [ReShade](https://reshade.me). <br>
 
 This mod was created by [Orange Brains](https://youtube.com/orangebrains), who hasn't shown a sign of activity since September of 2022. <br>
-Because of that, the remaining Team behind Liberty Visual decided to finish the Graphics Part of the Mod and release it in the Fall of 2024. <br>
+The remaining Team behind Liberty Visual decided to finish the Graphics Part of the Mod and release it in the Fall of 2024. <br>
 Join the Liberty Visual Discord Server for more Information, Help and Updates. <a href="https://discord.gg/ntppCPDQrV"><img src="https://img.shields.io/badge/discord-join-7289DA.svg?logo=discord&longCache=true&style=flat" /></a> <br>
  <br>
 [![Mod Trailer](https://img.youtube.com/vi/ZXYDLy6IMeQ/maxresdefault.jpg)](https://youtu.be/ZXYDLy6IMeQ)
@@ -22,9 +22,11 @@ Join the Liberty Visual Discord Server for more Information, Help and Updates. <
  <br>
 ## Installation:
 >
-> Install Grand Theft Auto IV: The Complete Edition (v1.2.0.30 and above required)
+> Download Grand Theft Auto IV: The Complete Edition
 >
-> Downgrade your Game to the Version supported by the Mod (curenntly 1.0.4.0 only) 
+> Clone your Game Directory to a different Path
+>
+> Downgrade your cloned Directory to the Version supported by the Mod (curenntly 1.0.4.0 only) 
 >
 > Unpack content of the Mod archive to your **Grand Theft Auto IV** root directory, where the Executable file ("GTAIV.exe") is located.
 >

@@ -242,14 +242,21 @@ Note: most of this content requires additional modifications by the end user to 
 - Partially fixed mirror depth
 - Added support to instantaneously turn lamppost bulbs on or off
 
-# Contributing
+# Credits
 
-If you have an idea for a fix, add a module with its implementation to [source](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/tree/master/source) directory and open a pull request. See [contributing.ixx](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/blob/master/source/contributing.ixx) for reference.
 
-# Reporting more issues
-
-We're making a list of **GTA IV** issues that weren't addressed in official patches.
-
-If you can think of one, submit it [here](https://github.com/GTAmodding/GTAIV-Issues-List/issues).
-
-If you've encountered an issue, caused by this fix, report it [here](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/issues).
+[Orange Brains](https://www.youtube.com/@MrOrangebrains) - The Original Creator of the Mod who unfortunatly has been inactive for a long time.
+<br>
+<br>
+The Team behind Liberty Visual:
+<br>
+[DayL](https://discord.gg/F2NZwbCzmX) - Maintaing the Server through Orange Brains multiple absences, finishing the mods Timecycle for the Public Release.
+<br>
+Vex - Doing the awesome WPL stuff. (Placement of new Objects and Details in the Game)
+<br>
+BisonSales - the Guy behind [Project RevIVe](https://discord.gg/Bn99sJX7hb)
+<br>
+Tasty Nut (Me) is maintaining this Repository.
+<br>
+<br>
+The generous Donors:

@@ -21,22 +21,24 @@ Join the Liberty Visual Discord Server for more Information, Help and Updates. <
 > If you want to play through GTA IV and EFLC, the best way to do it is [-this-](https://youtube.com/tastynut).
  <br>
  <br>
->## Installation:
->
-> Download Grand Theft Auto IV: The Complete Edition
->
-> Clone your Game Directory to a different Path
->
-> Downgrade your cloned Directory to the Version supported by the Mod (curenntly 1.0.4.0 only) 
->
-> Unpack content of the Mod archive to your **Grand Theft Auto IV** root directory, where the Executable file ("GTAIV.exe") is located.
->
- <br>
 
-
+## Installation: <br>
+<br>
+Download Grand Theft Auto IV: The Complete Edition
+<br>
+Clone your Game Directory to a different Path
+<br>
+[Download the Game Downgrader]()
+<br>
+Downgrade your cloned Directory to the Version supported by the Mod (curenntly 1.0.4.0 only) 
+<br>
+[Download the latest Mod Release]()
+<br>
+Unpack content of the Mod archive to your **Grand Theft Auto IV** root directory, where the Executable file ("GTAIV.exe") is located.
+<br>
 ---
 
-### Core/Gameplay Changelog
+## Mod Features
 
 ### New menu options
 

@@ -243,20 +243,18 @@ Note: most of this content requires additional modifications by the end user to 
 - Added support to instantaneously turn lamppost bulbs on or off
 
 # Credits
-
-
-[Orange Brains](https://www.youtube.com/@MrOrangebrains) - The Original Creator of the Mod who unfortunatly has been inactive for a long time.
 <br>
+[Orange Brains](https://www.youtube.com/@MrOrangebrains) - The Original Creator of the Mod who unfortunatly has been inactive for a long time.
 <br>
 The Team behind Liberty Visual:
 <br>
-[DayL](https://discord.gg/F2NZwbCzmX) - Maintaing the Server through Orange Brains multiple absences, finishing the mods Timecycle for the Public Release.
+[DayL](https://discord.gg/F2NZwbCzmX) finished the Timecycle for the Public Release
 <br>
-Vex - Doing the awesome WPL stuff. (Placement of new Objects and Details in the Game)
+Vex is doing the awesome WPL stuff. (Placement of new Objects and Details in the Game)
 <br>
-BisonSales - the Guy behind [Project RevIVe](https://discord.gg/Bn99sJX7hb)
+BisonSales is the Guy behind [Project RevIVe](https://discord.gg/Bn99sJX7hb) (Vegetation and Texture Stuff)
 <br>
-Tasty Nut (Me) is maintaining this Repository.
+Tasty Nut is maintaining the GitHub Repository.
 <br>
 <br>
 The generous Donors:

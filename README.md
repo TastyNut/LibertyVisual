@@ -11,7 +11,8 @@ This mod was created by [Orange Brains](https://youtube.com/orangebrains), who h
 Because of that, the remaining Team behind Liberty Visual decided to finish the Graphics Part of the Mod and release it in the Fall of 2024.
 Join the Liberty Visual Discord Server for more Information, Help and Updates. <a href="https://discord.gg/ntppCPDQrV"><img src="https://img.shields.io/badge/discord-join-7289DA.svg?logo=discord&longCache=true&style=flat" /></a>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZXYDLy6IMeQ?si=1vdI26ER0R62Sggo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[![Mod Trailer](https://img.youtube.com/vi/ZXYDLy6IMeQ/maxresdefault.jpg)](https://youtu.be/ZXYDLy6IMeQ)
+
 
 
 ## Installation:

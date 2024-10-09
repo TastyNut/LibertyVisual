@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rage__ptxgpuRenderSettings>
+	<motionBlurAmt value="0.1"/>
+	<radius value="0.05"/>
+	<radiusVariance value="0.025"/>
+	<radius2 value="0.11"/>
+	<radius2Variance value="0.04"/>
+	<lifeFade x="0.0" y="0.0"/>
+	<useDirectional value="true"/>
+	<tintColor x="4.0" y="4.0" z="4.0" w="0.06"/>
+	<tintColorPhase2 x="4.0" y="4.0" z="4.0" w="0.12"/>
+	<AnimStart value="0.0"/>
+	<AnimEnd value="0.12"/>
+	<NumFrames value="4.0"/>
+</rage__ptxgpuRenderSettings>

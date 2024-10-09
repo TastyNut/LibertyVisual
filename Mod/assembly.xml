@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package version="2.0" id="{A92D8EE8-F0C1-428C-9AC3-0C3777CC3579}" target="IV">
+<metadata>
+<name>Liberty Visual</name>
+<version>
+<major>1</major>
+<minor>0</minor>
+<tag>Stable</tag>
+</version>
+<author>
+<displayName>orangebrains</displayName>
+<web>https://www.patreon.com/orangebrains</web>
+<facebook>mrorangebrains</facebook>
+<youtube>MrOrangebrains</youtube>
+</author>
+<description><![CDATA[Liberty Visual is a WIP global visual enhancement for GTA IV aimed at bringing natural and almost photorealistic colours and feels to the GTA IV graphics. Besides ENB the mod also brings a lot of fixes and new features to the game such as completely reworked vehicle materials, parallax textures, shadows and reflections from wires, trees, etc.
+
+PATREON-EXCLUSIVE JUNE 2022 BUILD
+DO NOT REDISTRIBUTE
+
+Liberty Visual team:
+• orangebrains
+• BisonSales
+• DayL
+• Vex
+
+Special thanks to:
+• Rockstar Games
+• Boris Vorontsov
+• crosire
+• Marty McFly
+
+Also huge thanks to longtime Patreon supporters:
+• Air
+• Anathlyst
+• azakir
+• DavyDarko
+• DonBo
+• Internet Rob
+• Malik Hatsune
+• Nozbig
+• Orangeflea215
+• Raekwon
+• Rifte
+• RockaHorse
+• saffronbun
+• scx1125
+• Teneom]]></description>
+</metadata>
+<colors>
+<headerBackground useBlackTextColor="True">$FFA0BEE6</headerBackground>
+<iconBackground>$FFA0BEE6</iconBackground>
+</colors>
+<content>
+<add source="libertyvisual\lv_moddef\american.gxt">\common\text\american.gxt</add>
+<add source="libertyvisual\lv_moddef\gtaRainEmitter.xml">\common\data\gtaRainEmitter.xml</add>
+<add source="libertyvisual\lv_moddef\gtaRainRender.xml">\common\data\gtaRainRender.xml</add>
+<add source="libertyvisual\lv_moddef\gtaStormEmitter.xml">\common\data\gtaStormEmitter.xml</add>
+<add source="libertyvisual\lv_moddef\gtaStormRender.xml">\common\data\gtaStormRender.xml</add>
+<add source="libertyvisual\lv_moddef\taskparams.txt">\common\data\taskparams.txt</add>
+<add source="libertyvisual\lv_moddef\gta_core.wpfl">\pc\data\effects\gta_core.wpfl</add>
+<add source="libertyvisual\lv_moddef\gta_entity.wpfl">\pc\data\effects\gta_entity.wpfl</add>
+<add source="libertyvisual\lv_moddef\gta_script.wpfl">\pc\data\effects\gta_script.wpfl</add>
+<add source="libertyvisual\lv_moddef\coronas.wtd">\pc\textures\coronas.wtd</add>
+<add source="libertyvisual\lv_moddef\fx_rain.wtd">\pc\textures\fx_rain.wtd</add>
+<add source="libertyvisual\lv_moddef\fxprojtex.wtd">\pc\textures\fxprojtex.wtd</add>
+<add source="libertyvisual\lv_moddef\lights_occluders.wtd">\pc\textures\lights_occluders.wtd</add>
+<add source="libertyvisual\lv_moddef\stipple.wtd">\pc\textures\stipple.wtd</add>
+<add source="libertyvisual\lv_moddef\skydome.wtd">\pc\textures\skydome.wtd</add>
+<add source="libertyvisual\lv_moddef\vehicle.wtd">\pc\textures\vehicle.wtd</add>
+<add source="libertyvisual\lv_moddef\timecyclemodifiers.dat">\pc\data\timecyclemodifiers.dat</add>
+<add source="libertyvisual\lv_moddef\timecyclemodifiers.dat">\pc\data\timecyclemodifiers.dat</add>
+<add source="libertyvisual\lv_moddef\timecyclemodifiers2.dat">\pc\data\timecyclemodifiers2.dat</add>
+<add source="libertyvisual\lv_moddef\timecyclemodifiers3.dat">\pc\data\timecyclemodifiers3.dat</add>
+<add source="libertyvisual\lv_moddef\timecyclemodifiers4.dat">\pc\data\timecyclemodifiers4.dat</add>
+<add source="libertyvisual\lv_modmain\LibertyVisual.ini">\reshade-shaders\Presets\LibertyVisual.ini</add>
+<add source="libertyvisual\lv_modmain\AmbientLight.fx">\reshade-shaders\Shaders\AmbientLight.fx</add>
+<add source="libertyvisual\lv_modmain\Border.fx">\reshade-shaders\Shaders\Border.fx</add>
+<add source="libertyvisual\lv_modmain\Clarity.fx">\reshade-shaders\Shaders\Clarity.fx</add>
+<add source="libertyvisual\lv_modmain\DOF.fx">\reshade-shaders\Shaders\DOF.fx</add>
+<add source="libertyvisual\lv_modmain\qUINT_common.fxh">\reshade-shaders\Shaders\qUINT_common.fxh</add>
+<add source="libertyvisual\lv_modmain\qUINT_mxao.fx">\reshade-shaders\Shaders\qUINT_mxao.fx</add>
+<add source="libertyvisual\lv_modmain\qUINT_ssr.fx">\reshade-shaders\Shaders\qUINT_ssr.fx</add>
+<add source="libertyvisual\lv_modmain\ReShade.fxh">\reshade-shaders\Shaders\ReShade.fxh</add>
+<add source="libertyvisual\lv_modmain\ReShadeUI.fxh">\reshade-shaders\Shaders\ReShadeUI.fxh</add>
+<add source="libertyvisual\lv_modmain\Dirt.png">\reshade-shaders\Textures\Dirt.png</add>
+<add source="libertyvisual\lv_modmain\DirtOVB.png">\reshade-shaders\Textures\DirtOVB.png</add>
+<add source="libertyvisual\lv_modmain\DirtOVR.png">\reshade-shaders\Textures\DirtOVR.png</add>
+<add source="libertyvisual\lv_modmain\LensDB.png">\reshade-shaders\Textures\LensDB.png</add>
+<add source="libertyvisual\lv_modmain\LensDB2.png">\reshade-shaders\Textures\LensDB2.png</add>
+<add source="libertyvisual\lv_modmain\LensDOV.png">\reshade-shaders\Textures\LensDOV.png</add>
+<add source="libertyvisual\lv_modmain\LensDUV.png">\reshade-shaders\Textures\LensDUV.png</add>
+<add source="libertyvisual\lv_modmain\psh2DF967C6.txt">\shaderinput\psh2DF967C6.txt</add>
+<add source="libertyvisual\lv_modmain\psh8DB4CDB2.txt">\shaderinput\psh8DB4CDB2.txt</add>
+<add source="libertyvisual\lv_modmain\psh323E9BB8.txt">\shaderinput\psh323E9BB8.txt</add>
+<add source="libertyvisual\lv_modmain\pshF5256B40.txt">\shaderinput\pshF5256B40.txt</add>
+<add source="libertyvisual\lv_modmain\commandline.txt">commandline.txt</add>
+<add source="libertyvisual\lv_modmain\enbbloom.fx">enbbloom.fx</add>
+<add source="libertyvisual\lv_modmain\enbbloom.fxh">enbbloom.fxh</add>
+<add source="libertyvisual\lv_modmain\enbclouds.fx">enbclouds.fx</add>
+<add source="libertyvisual\lv_modmain\enbclouds.png">enbclouds.png</add>
+<add source="libertyvisual\lv_modmain\enbdetail.dds">enbdetail.dds</add>
+<add source="libertyvisual\lv_modmain\enbeffect.fx">enbeffect.fx</add>
+<add source="libertyvisual\lv_modmain\enbeffect.fxh">enbeffect.fxh</add>
+<add source="libertyvisual\lv_modmain\enbmoon.tga">enbmoon.tga</add>
+<add source="libertyvisual\lv_modmain\enbmoonbump.tga">enbmoonbump.tga</add>
+<add source="libertyvisual\lv_modmain\enbnoise.dds">enbnoise.dds</add>
+<add source="libertyvisual\lv_modmain\enbpalette.dds">enbpalette.dds</add>
+<add source="libertyvisual\lv_modmain\enbseries.ini">enbseries.ini</add>
+<add source="libertyvisual\lv_modmain\enbspritelight.bmp">enbspritelight.bmp</add>
+<add source="libertyvisual\lv_modmain\ReShade.ini">ReShade.ini</add>
+<add source="libertyvisual\lv_modmain\visualSettings.dat">\common\data\visualSettings.dat</add>
+<add source="libertyvisual\lv_modmain\timecyc.dat">\pc\data\timecyc.dat</add>
+<add source="libertyvisual\lv_modmain\gtaRainEmitter.xml">\pc\data\effects\gtaRainEmitter.xml</add>
+<add source="libertyvisual\lv_modmain\gtaRainRender.xml">\pc\data\effects\gtaRainRender.xml</add>
+<add source="libertyvisual\lv_modmain\gtaStormEmitter.xml">\pc\data\effects\gtaStormEmitter.xml</add>
+<add source="libertyvisual\lv_modmain\gtaStormRender.xml">\pc\data\effects\gtaStormRender.xml</add>
+<add source="libertyvisual\lv_modfeat\models\vehicles.img">\pc\models\cdimages\vehicles.img</add>
+<add source="libertyvisual\lv_modfeat\mapsout\bronx_e.ide">\pc\data\maps\east\bronx_e.ide</add>
+<add source="libertyvisual\lv_modfeat\mapsout\bronx_e.wpl">\pc\data\maps\east\bronx_e.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsout\bronx_e2.ide">\pc\data\maps\east\bronx_e2.ide</add>
+<add source="libertyvisual\lv_modfeat\mapsout\bronx_e2.wpl">\pc\data\maps\east\bronx_e2.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsout\bronx_w.ide">\pc\data\maps\east\bronx_w.ide</add>
+<add source="libertyvisual\lv_modfeat\mapsout\bronx_w.wpl">\pc\data\maps\east\bronx_w.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsout\bronx_w2.ide">\pc\data\maps\east\bronx_w2.ide</add>
+<add source="libertyvisual\lv_modfeat\mapsout\bronx_w2.wpl">\pc\data\maps\east\bronx_w2.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsout\brook_n.ide">\pc\data\maps\east\brook_n.ide</add>
+<add source="libertyvisual\lv_modfeat\mapsout\brook_n.wpl">\pc\data\maps\east\brook_n.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsout\brook_n2.ide">\pc\data\maps\east\brook_n2.ide</add>
+<add source="libertyvisual\lv_modfeat\mapsout\brook_n2.wpl">\pc\data\maps\east\brook_n2.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsout\brook_s.ide">\pc\data\maps\east\brook_s.ide</add>
+<add source="libertyvisual\lv_modfeat\mapsout\brook_s.wpl">\pc\data\maps\east\brook_s.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsout\brook_s2.ide">\pc\data\maps\east\brook_s2.ide</add>
+<add source="libertyvisual\lv_modfeat\mapsout\brook_s2.wpl">\pc\data\maps\east\brook_s2.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsout\brook_s3.ide">\pc\data\maps\east\brook_s3.ide</add>
+<add source="libertyvisual\lv_modfeat\mapsout\brook_s3.wpl">\pc\data\maps\east\brook_s3.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsout\east_xr.ide">\pc\data\maps\east\east_xr.ide</add>
+<add source="libertyvisual\lv_modfeat\mapsout\queens_e.ide">\pc\data\maps\east\queens_e.ide</add>
+<add source="libertyvisual\lv_modfeat\mapsout\queens_e.wpl">\pc\data\maps\east\queens_e.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsout\queens_m.ide">\pc\data\maps\east\queens_m.ide</add>
+<add source="libertyvisual\lv_modfeat\mapsout\queens_m.wpl">\pc\data\maps\east\queens_m.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsout\queens_w.ide">\pc\data\maps\east\queens_w.ide</add>
+<add source="libertyvisual\lv_modfeat\mapsout\queens_w.wpl">\pc\data\maps\east\queens_w.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsout\queens_w2.ide">\pc\data\maps\east\queens_w2.ide</add>
+<add source="libertyvisual\lv_modfeat\mapsout\queens_w2.wpl">\pc\data\maps\east\queens_w2.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsout\manhat01.ide">\pc\data\maps\manhat\manhat01.ide</add>
+<add source="libertyvisual\lv_modfeat\mapsout\manhat01.wpl">\pc\data\maps\manhat\manhat01.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsout\manhat02.ide">\pc\data\maps\manhat\manhat02.ide</add>
+<add source="libertyvisual\lv_modfeat\mapsout\manhat02.wpl">\pc\data\maps\manhat\manhat02.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsout\manhat03.ide">\pc\data\maps\manhat\manhat03.ide</add>
+<add source="libertyvisual\lv_modfeat\mapsout\manhat03.wpl">\pc\data\maps\manhat\manhat03.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsout\manhat04.ide">\pc\data\maps\manhat\manhat04.ide</add>
+<add source="libertyvisual\lv_modfeat\mapsout\manhat04.wpl">\pc\data\maps\manhat\manhat04.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsout\manhat05.ide">\pc\data\maps\manhat\manhat05.ide</add>
+<add source="libertyvisual\lv_modfeat\mapsout\manhat05.wpl">\pc\data\maps\manhat\manhat05.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsout\manhat06.ide">\pc\data\maps\manhat\manhat06.ide</add>
+<add source="libertyvisual\lv_modfeat\mapsout\manhat06.wpl">\pc\data\maps\manhat\manhat06.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsout\manhat07.ide">\pc\data\maps\manhat\manhat07.ide</add>
+<add source="libertyvisual\lv_modfeat\mapsout\manhat07.wpl">\pc\data\maps\manhat\manhat07.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsout\manhat08.ide">\pc\data\maps\manhat\manhat08.ide</add>
+<add source="libertyvisual\lv_modfeat\mapsout\manhat08.wpl">\pc\data\maps\manhat\manhat08.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsout\manhat09.ide">\pc\data\maps\manhat\manhat09.ide</add>
+<add source="libertyvisual\lv_modfeat\mapsout\manhat09.wpl">\pc\data\maps\manhat\manhat09.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsout\manhat10.ide">\pc\data\maps\manhat\manhat10.ide</add>
+<add source="libertyvisual\lv_modfeat\mapsout\manhat10.wpl">\pc\data\maps\manhat\manhat10.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsout\manhat11.ide">\pc\data\maps\manhat\manhat11.ide</add>
+<add source="libertyvisual\lv_modfeat\mapsout\manhat11.wpl">\pc\data\maps\manhat\manhat11.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsout\manhat12.ide">\pc\data\maps\manhat\manhat12.ide</add>
+<add source="libertyvisual\lv_modfeat\mapsout\manhat12.wpl">\pc\data\maps\manhat\manhat12.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsout\manhatsw.wpl">\pc\data\maps\manhat\manhatsw.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsout\lamppost.ide">\pc\data\maps\props\roadside\lamppost.ide</add>
+<add source="libertyvisual\lv_modfeat\mapsout\amenitie.ide">\pc\data\maps\props\street\amenitie.ide</add>
+<add source="libertyvisual\lv_modfeat\mapsout\ext_veg.ide">\pc\data\maps\props\vegetation\ext_veg.ide</add>
+
+<archive path="pc\data\cdimages\gtxd.img" createIfNotExist="True" type="RPF7">
+<add source="libertyvisual\lv_modfeat\models\east_brownstones.wtd">east_brownstones.wtd</add>
+<add source="libertyvisual\lv_modfeat\models\east_ltrain.wtd">east_ltrain.wtd</add>
+<add source="libertyvisual\lv_modfeat\models\east_rooftops.wtd">east_rooftops.wtd</add>
+<add source="libertyvisual\lv_modfeat\models\mh_buildings.wtd">mh_buildings.wtd</add>
+<add source="libertyvisual\lv_modfeat\models\queens_w_alley.wtd">queens_w_alley.wtd</add>
+<add source="libertyvisual\lv_modfeat\models\tree_lods.wtd">tree_lods.wtd</add>
+</archive>
+
+<archive path="pc\data\maps\east\bronx_e.img" createIfNotExist="True" type="RPF7">
+<add source="libertyvisual\lv_modfeat\mapsin\l_bxe_cm_treelod.wdd">l_bxe_cm_treelod.wdd</add>
+</archive>
+
+<archive path="pc\data\maps\east\bronx_e2.img" createIfNotExist="True" type="RPF7">
+<add source="libertyvisual\lv_modfeat\mapsin\l_bx2_treelod.wdd">l_bx2_treelod.wdd</add>
+</archive>
+
+<archive path="pc\data\maps\east\bronx_w.img" createIfNotExist="True" type="RPF7">
+<add source="libertyvisual\lv_modfeat\mapsin\l_lodbxw_trees.wdd">l_lodbxw_trees.wdd</add>
+<add source="libertyvisual\lv_modfeat\mapsin\fo1_base.wdr">fo1_base.wdr</add>
+</archive>
+
+<archive path="pc\data\maps\east\bronx_w2.img" createIfNotExist="True" type="RPF7">
+<add source="libertyvisual\lv_modfeat\mapsin\l_lodwii_trees.wdd">l_lodwii_trees.wdd</add>
+</archive>
+
+<archive path="pc\data\maps\east\brook_n.img" createIfNotExist="True" type="RPF7">
+<add source="libertyvisual\lv_modfeat\mapsin\bk_trsptbase.wdr">bk_trsptbase.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\bkn_bh1_grnd.wdr">bkn_bh1_grnd.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\bkn_bh_bs2.wdr">bkn_bh_bs2.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\bkn_bkprom.wtd">bkn_bkprom.wtd</add>
+<add source="libertyvisual\lv_modfeat\mapsin\bkn_bs4_grnd.wdr">bkn_bs4_grnd.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\bkn_dt1_base.wdr">bkn_dt1_base.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\bkn_dt1_base1.wdr">bkn_dt1_base1.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\bkn_dt1blk.wtd">bkn_dt1blk.wtd</add>
+<add source="libertyvisual\lv_modfeat\mapsin\bkn_dumboground2.wtd">bkn_dumboground2.wtd</add>
+<add source="libertyvisual\lv_modfeat\mapsin\bkn_generic_ground.wtd">bkn_generic_ground.wtd</add>
+<add source="libertyvisual\lv_modfeat\mapsin\bkn_mhb_base1.wdr">bkn_mhb_base1.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\bkn_mhb_base2.wdr">bkn_mhb_base2.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\bkn_mhb_cablebas.wdr">bkn_mhb_cablebas.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\bkn_mhb_onramp.wdr">bkn_mhb_onramp.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\bkn_mhbridge.wtd">bkn_mhbridge.wtd</add>
+<add source="libertyvisual\lv_modfeat\mapsin\bkn_prom1.wdr">bkn_prom1.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\bkn_prom2.wdr">bkn_prom2.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\bkn_prom3.wdr">bkn_prom3.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\bs_bstone_basebkn.wdr">bs_bstone_basebkn.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\dumbofront_bkn.wdr">dumbofront_bkn.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\mbridgeend_bkn.wdr">mbridgeend_bkn.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\mh_bkn_dmb_g1.wdr">mh_bkn_dmb_g1.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\mh_roadbuit_bkn.wdr">mh_roadbuit_bkn.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\l_marco_treelod.wdd">l_marco_treelod.wdd</add>
+<add source="libertyvisual\lv_modfeat\mapsin\brook_n_strbig0.wpl">brook_n_strbig0.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\brook_n_stream0.wpl">brook_n_stream0.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\brook_n_stream1.wpl">brook_n_stream1.wpl</add>
+</archive>
+
+<archive path="pc\data\maps\east\brook_n2.img" createIfNotExist="True" type="RPF7">
+<add source="libertyvisual\lv_modfeat\mapsin\l_bkn2_treelod.wdd">l_bkn2_treelod.wdd</add>
+<add source="libertyvisual\lv_modfeat\mapsin\brook_n2_strbig0.wpl">brook_n2_strbig0.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\brook_n2_stream0.wpl">brook_n2_stream0.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\brook_n2_stream1.wpl">brook_n2_stream1.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\brook_n2_stream2.wpl">brook_n2_stream2.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\brook_n2_stream3.wpl">brook_n2_stream3.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\brook_n2_stream4.wpl">brook_n2_stream4.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\brook_n2_stream5.wpl">brook_n2_stream5.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\brook_n2_stream6.wpl">brook_n2_stream6.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\brook_n2_stream7.wpl">brook_n2_stream7.wpl</add>
+</archive>
+
+<archive path="pc\data\maps\east\brook_s.img" createIfNotExist="True" type="RPF7">
+<add source="libertyvisual\lv_modfeat\mapsin\bbrijsup1_ks_01.wdr">bbrijsup1_ks_01.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\bbrijsup2_ks_01.wdr">bbrijsup2_ks_01.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\ks_coastwall_01.wdr">ks_coastwall_01.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\ks_coastwall_1.wtd">ks_coastwall_1.wtd</add>
+<add source="libertyvisual\lv_modfeat\mapsin\ks_teleline_01.wdr">ks_teleline_01.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\ks_teleline_rt01.wdr">ks_teleline_rt01.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\ks_teleline_rt03.wdr">ks_teleline_rt03.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\ks_telelineb_02.wdr">ks_telelineb_02.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\ks_telelineb_02cc.wdr">ks_telelineb_02cc.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\brook_s_strbig0.wpl">brook_s_strbig0.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\brook_s_stream0.wpl">brook_s_stream0.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\brook_s_stream1.wpl">brook_s_stream1.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\brook_s_stream2.wpl">brook_s_stream2.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\brook_s_stream3.wpl">brook_s_stream3.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\brook_s_stream4.wpl">brook_s_stream4.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\brook_s_stream5.wpl">brook_s_stream5.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\brook_s_stream6.wpl">brook_s_stream6.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\brook_s_stream7.wpl">brook_s_stream7.wpl</add>
+</archive>
+
+<archive path="pc\data\maps\east\brook_s2.img" createIfNotExist="True" type="RPF7">
+<add source="libertyvisual\lv_modfeat\mapsin\l_tg_treelod.wdd">l_tg_treelod.wdd</add>
+</archive>
+
+<archive path="pc\data\maps\east\brook_s3.img" createIfNotExist="True" type="RPF7">
+<add source="libertyvisual\lv_modfeat\mapsin\ks3_telelineci2_01.wdr">ks3_telelineci2_01.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\og_ks3_telebe3_01.wdr">og_ks3_telebe3_01.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\og_rh5_cables.wdr">og_rh5_cables.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\l_ogtreelod.wdd">l_ogtreelod.wdd</add>
+<add source="libertyvisual\lv_modfeat\mapsin\brook_s3_strbig0.wpl">brook_s3_strbig0.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\brook_s3_stream0.wpl">brook_s3_stream0.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\brook_s3_stream1.wpl">brook_s3_stream1.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\brook_s3_stream2.wpl">brook_s3_stream2.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\brook_s3_stream3.wpl">brook_s3_stream3.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\brook_s3_stream4.wpl">brook_s3_stream4.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\brook_s3_stream5.wpl">brook_s3_stream5.wpl</add>
+</archive>
+
+<archive path="pc\data\maps\east\queens_e.img" createIfNotExist="True" type="RPF7">
+<add source="libertyvisual\lv_modfeat\mapsin\l_ap_lod_tree.wdd">l_ap_lod_tree.wdd</add>
+</archive>
+
+<archive path="pc\data\maps\east\queens_m.img" createIfNotExist="True" type="RPF7">
+<add source="libertyvisual\lv_modfeat\mapsin\am_fm5_cables.wdr">am_fm5_cables.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\am_ho3_cables.wdr">am_ho3_cables.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\am_ho4_bunting.wdr">am_ho4_bunting.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\am_mall3_cables.wdr">am_mall3_cables.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\am_mall3_cwashbunt.wdr">am_mall3_cwashbunt.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\fh3_telegraph_lines.wdr">fh3_telegraph_lines.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\fh4_cable.wdr">fh4_cable.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\l_lod_am_tree.wdd">l_lod_am_tree.wdd</add>
+<add source="libertyvisual\lv_modfeat\mapsin\qm_fh1_cables.wdr">qm_fh1_cables.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\qm_fh5_cables.wdr">qm_fh5_cables.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\qm_fh6_cables.wdr">qm_fh6_cables.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\qm_fm4_cablesspline.wdr">qm_fm4_cablesspline.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\qm_ho4_cables.wdr">qm_ho4_cables.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\qm_ho4bunting.wtd">qm_ho4bunting.wtd</add>
+<add source="libertyvisual\lv_modfeat\mapsin\qm_ho5_cables.wdr">qm_ho5_cables.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\qm_meadowspark.wtd">qm_meadowspark.wtd</add>
+<add source="libertyvisual\lv_modfeat\mapsin\queens_m_strbig0.wpl">queens_m_strbig0.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\queens_m_strbig1.wpl">queens_m_strbig1.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\queens_m_strbig2.wpl">queens_m_strbig2.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\queens_m_strbig3.wpl">queens_m_strbig3.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\queens_m_stream0.wpl">queens_m_stream0.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\queens_m_stream1.wpl">queens_m_stream1.wpl</add>
+</archive>
+
+<archive path="pc\data\maps\east\queens_w.img" createIfNotExist="True" type="RPF7">
+<add source="libertyvisual\lv_modfeat\mapsin\l_qw_treelods.wdd">l_qw_treelods.wdd</add>
+<add source="libertyvisual\lv_modfeat\mapsin\qw_as1.wtd">qw_as1.wtd</add>
+<add source="libertyvisual\lv_modfeat\mapsin\qw_as2.wdr">qw_as2.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\qw_as3.wdr">qw_as3.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\qw_as3wires.wdr">qw_as3wires.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\qw_as6wires.wdr">qw_as6wires.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\qw_as7wires.wdr">qw_as7wires.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\qw_as9_telewires.wdr">qw_as9_telewires.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\qw_astprkgrs1.wdr">qw_astprkgrs1.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\qw_astprkgrs5.wdr">qw_astprkgrs5.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\qw_astprkgrs7.wdr">qw_astprkgrs7.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\qw_docks.wtd">qw_docks.wtd</add>
+<add source="libertyvisual\lv_modfeat\mapsin\qw_docks1.wdr">qw_docks1.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\qw_docks2.wdr">qw_docks2.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\qw_lic10_wires.wdr">qw_lic10_wires.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\qw_lic9_wires.wdr">qw_lic9_wires.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\qw_nwcostwires1.wdr">qw_nwcostwires1.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\qw_nwcostwires2.wdr">qw_nwcostwires2.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\qw_telewires5.wdr">qw_telewires5.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\qw_wires.wtd">qw_wires.wtd</add>
+<add source="libertyvisual\lv_modfeat\mapsin\queens_w_strbig0.wpl">queens_w_strbig0.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\queens_w_strbig1.wpl">queens_w_strbig1.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\queens_w_stream0.wpl">queens_w_stream0.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\queens_w_stream1.wpl">queens_w_stream1.wpl</add>
+</archive>
+
+<archive path="pc\data\maps\east\queens_w2.img" createIfNotExist="True" type="RPF7">
+<add source="libertyvisual\lv_modfeat\mapsin\cj5_wires.wdr">cj5_wires.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\l_qw2_treelods.wdd">l_qw2_treelods.wdd</add>
+<add source="libertyvisual\lv_modfeat\mapsin\qw_newlicwires.wdr">qw_newlicwires.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\qw_newlicwires2.wdr">qw_newlicwires2.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\qw2_cj1_wires.wdr">qw2_cj1_wires.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\qw2_cj2_wires.wdr">qw2_cj2_wires.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\qw2_cj3_2wires.wdr">qw2_cj3_2wires.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\qw2_cj3_wires.wdr">qw2_cj3_wires.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\qw2_cj4_2wires.wdr">qw2_cj4_2wires.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\qw2_cj4_wires.wdr">qw2_cj4_wires.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\qw2_lic1awires.wdr">qw2_lic1awires.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\qw2_lic3wires.wdr">qw2_lic3wires.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\qw2_lic4wires.wdr">qw2_lic4wires.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\qw2_lic5wires.wdr">qw2_lic5wires.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\qw2_lic6wires.wdr">qw2_lic6wires.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\qw2_lic7wires.wdr">qw2_lic7wires.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\queens_w2_strbig0.wpl">queens_w2_strbig0.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\queens_w2_stream0.wpl">queens_w2_stream0.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\queens_w2_stream1.wpl">queens_w2_stream1.wpl</add>
+</archive>
+
+<archive path="pc\data\maps\jersey\nj_01.img" createIfNotExist="True" type="RPF7">
+<add source="libertyvisual\lv_modfeat\mapsin\l_nj01treelod.wdd">l_nj01treelod.wdd</add>
+</archive>
+
+<archive path="pc\data\maps\jersey\nj_02.img" createIfNotExist="True" type="RPF7">
+<add source="libertyvisual\lv_modfeat\mapsin\l_nj02_treelod.wdd">l_nj02_treelod.wdd</add>
+</archive>
+
+<archive path="pc\data\maps\jersey\nj_03.img" createIfNotExist="True" type="RPF7">
+<add source="libertyvisual\lv_modfeat\mapsin\l_nj03_treelod.wdd">l_nj03_treelod.wdd</add>
+<add source="libertyvisual\lv_modfeat\mapsin\nj03_treelod.wtd">nj03_treelod.wtd</add>
+</archive>
+
+<archive path="pc\data\maps\jersey\nj_04e.img" createIfNotExist="True" type="RPF7">
+<add source="libertyvisual\lv_modfeat\mapsin\l_nj04e_bushlod.wdd">l_nj04e_bushlod.wdd</add>
+<add source="libertyvisual\lv_modfeat\mapsin\l_nj04e_bushlods.wdd">l_nj04e_bushlods.wdd</add>
+<add source="libertyvisual\lv_modfeat\mapsin\l_nj04e_treelod.wdd">l_nj04e_treelod.wdd</add>
+</archive>
+
+<archive path="pc\data\maps\jersey\nj_04w.img" createIfNotExist="True" type="RPF7">
+<add source="libertyvisual\lv_modfeat\mapsin\l_treelodnj04w.wdd">l_treelodnj04w.wdd</add>
+</archive>
+
+<archive path="pc\data\maps\jersey\nj_05.img" createIfNotExist="True" type="RPF7">
+<add source="libertyvisual\lv_modfeat\mapsin\l_nj5_treelods.wdd">l_nj5_treelods.wdd</add>
+</archive>
+
+<archive path="pc\data\maps\jersey\nj_docks.img" createIfNotExist="True" type="RPF7">
+<add source="libertyvisual\lv_modfeat\mapsin\l_et_treelods.wdd">l_et_treelods.wdd</add>
+<add source="libertyvisual\lv_modfeat\mapsin\l_njdockbushlod.wdd">l_njdockbushlod.wdd</add>
+</archive>
+
+<archive path="pc\data\maps\jersey\nj_liberty.img" createIfNotExist="True" type="RPF7">
+<add source="libertyvisual\lv_modfeat\mapsin\l_lib_bushlod.wdd">l_lib_bushlod.wdd</add>
+<add source="libertyvisual\lv_modfeat\mapsin\l_lib_treelod.wdd">l_lib_treelod.wdd</add>
+<add source="libertyvisual\lv_modfeat\mapsin\nj_li_stoflibbase.wdr">nj_li_stoflibbase.wdr</add>
+</archive>
+
+<archive path="pc\data\maps\manhat\manhat01.img" createIfNotExist="True" type="RPF7">
+<add source="libertyvisual\lv_modfeat\mapsin\01_wires_mh1.wdr">01_wires_mh1.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\3_flag_mh1.wdr">3_flag_mh1.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\3_flag2_mh1.wdr">3_flag2_mh1.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\10_road_mh1.wdr">10_road_mh1.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\bp_mh1.wtd">bp_mh1.wtd</add>
+<add source="libertyvisual\lv_modfeat\mapsin\cgfloor_mh1.wdr">cgfloor_mh1.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\coast_mh1.wtd">coast_mh1.wtd</add>
+<add source="libertyvisual\lv_modfeat\mapsin\ct_wire1_mh1.wdr">ct_wire1_mh1.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\ct_wire2_mh1.wdr">ct_wire2_mh1.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\ct_wire3_mh1.wdr">ct_wire3_mh1.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\ct_wire4_mh1.wdr">ct_wire4_mh1.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\hsbc_mh1.wdr">hsbc_mh1.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\ht_base_mh1.wdr">ht_base_mh1.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\l_lod_tree_mh1.wdd">l_lod_tree_mh1.wdd</add>
+<add source="libertyvisual\lv_modfeat\mapsin\p17_wire10_mh1.wdr">p17_wire10_mh1.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\pa_floor_mh1.wdr">pa_floor_mh1.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\park_mh1.wtd">park_mh1.wtd</add>
+<add source="libertyvisual\lv_modfeat\mapsin\wire00_mh1.wdr">wire00_mh1.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\wire01_mh1.wdr">wire01_mh1.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\wire02_mh1.wdr">wire02_mh1.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\wire03_mh1.wdr">wire03_mh1.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\wire04_mh1.wdr">wire04_mh1.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\manhat01_strbig0.wpl">manhat01_strbig0.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\manhat01_strbig1.wpl">manhat01_strbig1.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\manhat01_stream0.wpl">manhat01_stream0.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\manhat01_stream1.wpl">manhat01_stream1.wpl</add>
+</archive>
+
+<archive path="pc\data\maps\manhat\manhat02.img" createIfNotExist="True" type="RPF7">
+<add source="libertyvisual\lv_modfeat\mapsin\bpc_gnd04_mh2.wdr">bpc_gnd04_mh2.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\bpc_gnd05_mh2.wdr">bpc_gnd05_mh2.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\bpc_gnd06_mh2.wdr">bpc_gnd06_mh2.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\bpc_gnd07_mh2.wdr">bpc_gnd07_mh2.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\bpc_gnd08_mh2.wdr">bpc_gnd08_mh2.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\bpc_gnd09_mh2.wdr">bpc_gnd09_mh2.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\bpc_gnd10_mh2.wdr">bpc_gnd10_mh2.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\castle_gnd_mh2.wtd">castle_gnd_mh2.wtd</add>
+<add source="libertyvisual\lv_modfeat\mapsin\cityhall_gnd01_ns2.wdr">cityhall_gnd01_ns2.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\cityhall_gnd02_ns2.wdr">cityhall_gnd02_ns2.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\cityhall_mh2.wtd">cityhall_mh2.wtd</add>
+<add source="libertyvisual\lv_modfeat\mapsin\gas_terr_mh2.wdr">gas_terr_mh2.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\l_lod_trees_mh2.wdd">l_lod_trees_mh2.wdd</add>
+<add source="libertyvisual\lv_modfeat\mapsin\li_bunting03_mh2.wdr">li_bunting03_mh2.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\li_bunting04_mh2.wdr">li_bunting04_mh2.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\mar_gnd03_mh2.wdr">mar_gnd03_mh2.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\mh2_08_ter05_mh2.wdr">mh2_08_ter05_mh2.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\mh2_10_terrain_mh2.wdr">mh2_10_terrain_mh2.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\mun_gnd01_mh2.wdr">mun_gnd01_mh2.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\mun_gnd02_mh2.wdr">mun_gnd02_mh2.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\soho01_terrain_mh2.wdr">soho01_terrain_mh2.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\wworthgrnd_ns2.wdr">wworthgrnd_ns2.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\manhat02_strbig0.wpl">manhat02_strbig0.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\manhat02_stream0.wpl">manhat02_stream0.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\manhat02_stream1.wpl">manhat02_stream1.wpl</add>
+</archive>
+
+<archive path="pc\data\maps\manhat\manhat03.img" createIfNotExist="True" type="RPF7">
+<add source="libertyvisual\lv_modfeat\mapsin\l_treelods_mh3.wdd">l_treelods_mh3.wdd</add>
+</archive>
+
+<archive path="pc\data\maps\manhat\manhat04.img" createIfNotExist="True" type="RPF7">
+<add source="libertyvisual\lv_modfeat\mapsin\l_tree_lod_mh4.wdd">l_tree_lod_mh4.wdd</add>
+<add source="libertyvisual\lv_modfeat\mapsin\playgrounda_mh4.wdr">playgrounda_mh4.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\police_wires.wdr">police_wires.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\rac_hotelflr_mh4.wdr">rac_hotelflr_mh4.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\rac_hotgrd_mh4.wtd">rac_hotgrd_mh4.wtd</add>
+<add source="libertyvisual\lv_modfeat\mapsin\riverside_pathf_mh4.wdr">riverside_pathf_mh4.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\riverside_pathg_mh4.wdr">riverside_pathg_mh4.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\uni_wires_a_mh4.wdr">uni_wires_a_mh4.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\uni_wiresb_mh04.wdr">uni_wiresb_mh04.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\uni_wiresc_mh4.wdr">uni_wiresc_mh4.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\wirenew.wdr">wirenew.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\wires_06_mh4.wdr">wires_06_mh4.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\wires_08_mh4.wdr">wires_08_mh4.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\wires_19_mh4.wdr">wires_19_mh4.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\wires_23_mh4.wdr">wires_23_mh4.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\wires_30_mh4.wdr">wires_30_mh4.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\wires_uni_accom.wdr">wires_uni_accom.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\manhat04_strbig0.wpl">manhat04_strbig0.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\manhat04_stream0.wpl">manhat04_stream0.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\manhat04_stream1.wpl">manhat04_stream1.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\manhat04_stream2.wpl">manhat04_stream2.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\manhat04_stream3.wpl">manhat04_stream3.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\manhat04_stream4.wpl">manhat04_stream4.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\manhat04_stream5.wpl">manhat04_stream5.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\manhat04_stream6.wpl">manhat04_stream6.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\manhat04_stream7.wpl">manhat04_stream7.wpl</add>
+</archive>
+
+<archive path="pc\data\maps\manhat\manhat05.img" createIfNotExist="True" type="RPF7">
+<add source="libertyvisual\lv_modfeat\mapsin\08_wires_mh5.wdr">08_wires_mh5.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\12_wires01_mh5.wdr">12_wires01_mh5.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\13_wires01_mh5.wdr">13_wires01_mh5.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\14_wires01_mh5.wdr">14_wires01_mh5.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\15_cobblroad_mh5.wdr">15_cobblroad_mh5.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\15wires_mh5.wdr">15wires_mh5.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\16_wires1_mh5.wdr">16_wires1_mh5.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\19_wires_mh5.wdr">19_wires_mh5.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\20_wires1_mh5_.wdr">20_wires1_mh5_.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\22_wires01_mh5.wdr">22_wires01_mh5.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\26_wires01_lmap.wdr">26_wires01_lmap.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\b12_wires_mh5.wdr">b12_wires_mh5.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\blk02_cobs1_mh5.wdr">blk02_cobs1_mh5.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\coble1_mh5.wtd">coble1_mh5.wtd</add>
+<add source="libertyvisual\lv_modfeat\mapsin\l_treelod_mh5.wdd">l_treelod_mh5.wdd</add>
+<add source="libertyvisual\lv_modfeat\mapsin\roadcobl_1_mh5.wdr">roadcobl_1_mh5.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\roadcobl_2_mh5.wdr">roadcobl_2_mh5.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\wires01_39_mh5.wdr">wires01_39_mh5.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\manhat05_strbig0.wpl">manhat05_strbig0.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\manhat05_stream0.wpl">manhat05_stream0.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\manhat05_stream1.wpl">manhat05_stream1.wpl</add>
+</archive>
+
+<archive path="pc\data\maps\manhat\manhat06.img" createIfNotExist="True" type="RPF7">
+<add source="libertyvisual\lv_modfeat\mapsin\cp_fountain_mh6.wdr">cp_fountain_mh6.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\cp_fountain_mh6.wtd">cp_fountain_mh6.wtd</add>
+<add source="libertyvisual\lv_modfeat\mapsin\l_treeslod_mh06.wdd">l_treeslod_mh06.wdd</add>
+<add source="libertyvisual\lv_modfeat\mapsin\park_05_mh6.wtd">park_05_mh6.wtd</add>
+<add source="libertyvisual\lv_modfeat\mapsin\parkpiece1_mh6.wdr">parkpiece1_mh6.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\parkpiece2_mh6.wdr">parkpiece2_mh6.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\parkpiece4_mh6.wdr">parkpiece4_mh6.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\parkpiece7_mh6.wdr">parkpiece7_mh6.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\parkpiece8_mh6.wdr">parkpiece8_mh6.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\sjl_grd_mh6.wdr">sjl_grd_mh6.wdr</add>
+</archive>
+
+<archive path="pc\data\maps\manhat\manhat07.img" createIfNotExist="True" type="RPF7">
+<add source="libertyvisual\lv_modfeat\mapsin\b4_gc_mh7.wdr">b4_gc_mh7.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\b4_getalifeg_mh7.wdr">b4_getalifeg_mh7.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\cathgrnd_mh7.wdr">cathgrnd_mh7.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\l_tree_lod_mh7.wdd">l_tree_lod_mh7.wdd</add>
+</archive>
+
+<archive path="pc\data\maps\manhat\manhat08.img" createIfNotExist="True" type="RPF7">
+<add source="libertyvisual\lv_modfeat\mapsin\l_treelod_mh8.wdd">l_treelod_mh8.wdd</add>
+</archive>
+
+<archive path="pc\data\maps\manhat\manhat09.img" createIfNotExist="True" type="RPF7">
+<add source="libertyvisual\lv_modfeat\mapsin\l_treelods_dc9.wdd">l_treelods_dc9.wdd</add>
+</archive>
+
+<archive path="pc\data\maps\manhat\manhat10.img" createIfNotExist="True" type="RPF7">
+<add source="libertyvisual\lv_modfeat\mapsin\3_wire_mhgv6.wdr">3_wire_mhgv6.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\blk06_d_mh10.wdr">blk06_d_mh10.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\dm_bunting01_mh10.wdr">dm_bunting01_mh10.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\dm_bunting02_mh10.wdr">dm_bunting02_mh10.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\l_tree_lods_mh10.wdd">l_tree_lods_mh10.wdd</add>
+<add source="libertyvisual\lv_modfeat\mapsin\tree_lods_mh10.wtd">tree_lods_mh10.wtd</add>
+<add source="libertyvisual\lv_modfeat\mapsin\manhat10_strbig0.wpl">manhat10_strbig0.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\manhat10_stream0.wpl">manhat10_stream0.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\manhat10_stream1.wpl">manhat10_stream1.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\manhat10_stream2.wpl">manhat10_stream2.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\manhat10_stream3.wpl">manhat10_stream3.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\manhat10_stream4.wpl">manhat10_stream4.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\manhat10_stream5.wpl">manhat10_stream5.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\manhat10_stream6.wpl">manhat10_stream6.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\manhat10_stream7.wpl">manhat10_stream7.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\manhat10_stream8.wpl">manhat10_stream8.wpl</add>
+</archive>
+
+<archive path="pc\data\maps\manhat\manhat11.img" createIfNotExist="True" type="RPF7">
+<add source="libertyvisual\lv_modfeat\mapsin\l_treelod_mh11.wdd">l_treelod_mh11.wdd</add>
+</archive>
+
+<archive path="pc\data\maps\manhat\manhat12.img" createIfNotExist="True" type="RPF7">
+<add source="libertyvisual\lv_modfeat\mapsin\cables_x1_mh12.wdr">cables_x1_mh12.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\coast01_mh12.wdr">coast01_mh12.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\grassland_x_mh12.wdr">grassland_x_mh12.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\hlmcoast1_mh12.wdr">hlmcoast1_mh12.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\hlmcoast3_mh12.wdr">hlmcoast3_mh12.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\hlmcoastl_mhx12.wdr">hlmcoastl_mhx12.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\l_treeslod_mh12.wdd">l_treeslod_mh12.wdd</add>
+<add source="libertyvisual\lv_modfeat\mapsin\landbank_mh12.wdr">landbank_mh12.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\manhat12_strbig0.wpl">manhat12_strbig0.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\manhat12_stream0.wpl">manhat12_stream0.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\manhat12_stream1.wpl">manhat12_stream1.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\manhat12_stream2.wpl">manhat12_stream2.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\manhat12_stream3.wpl">manhat12_stream3.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\manhat12_stream4.wpl">manhat12_stream4.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\manhat12_stream5.wpl">manhat12_stream5.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\manhat12_stream6.wpl">manhat12_stream6.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\manhat12_stream7.wpl">manhat12_stream7.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\manhat12_stream8.wpl">manhat12_stream8.wpl</add>
+<add source="libertyvisual\lv_modfeat\mapsin\road_x1b_mh12.wdr">road_x1b_mh12.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\road_x3e_mh12.wdr">road_x3e_mh12.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\seawall1_mh12.wdr">seawall1_mh12.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\wirebunch06_mh12.wdr">wirebunch06_mh12.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\wirebunch07_mh12.wdr">wirebunch07_mh12.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\wirebunch08_mh12.wdr">wirebunch08_mh12.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\wirebunch1_mh12.wdr">wirebunch1_mh12.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\wirebunch2_mh12.wdr">wirebunch2_mh12.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\wirebunch3_mh12.wdr">wirebunch3_mh12.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\wirebunch4_mh12.wdr">wirebunch4_mh12.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\wires_mh12_02_01.wdr">wires_mh12_02_01.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\wires_mh12_02_02.wdr">wires_mh12_02_02.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\wires_mh12_02_03.wdr">wires_mh12_02_03.wdr</add>
+<add source="libertyvisual\lv_modfeat\mapsin\wires_mh12_02_04.wdr">wires_mh12_02_04.wdr</add>
+</archive>
+</content>
+</package>

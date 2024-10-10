@@ -8,7 +8,7 @@ The remaining team behind Liberty Visual decided to finish the mod and release i
 Join the Liberty Visual discord server for more information, help and updates. <br>
 <a href="https://discord.gg/ntppCPDQrV"><img src="https://img.shields.io/badge/discord-join-7289DA.svg?logo=discord&longCache=true&style=flat" /></a> <br>
 
-[![Mod Trailer](https://img.youtube.com/vi/ZXYDLy6IMeQ/maxresdefault.jpg)](https://youtu.be/ZXYDLy6IMeQ)
+[![Mod Trailer](https://img.youtube.com/vi/5A3xGEULBUQ/maxresdefault.jpg)](https://youtu.be/5A3xGEULBUQ)
 
 > [!IMPORTANT]
 > This mod, in its current form, is not meant for doing a playthrough of the game.<br>

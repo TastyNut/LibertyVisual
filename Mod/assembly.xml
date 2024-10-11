@@ -69,7 +69,6 @@ Also huge thanks to longtime Patreon supporters:
 <add source="libertyvisual\lv_moddef\skydome.wtd">\pc\textures\skydome.wtd</add>
 <add source="libertyvisual\lv_moddef\vehicle.wtd">\pc\textures\vehicle.wtd</add>
 <add source="libertyvisual\lv_moddef\timecyclemodifiers.dat">\pc\data\timecyclemodifiers.dat</add>
-<add source="libertyvisual\lv_moddef\timecyclemodifiers.dat">\pc\data\timecyclemodifiers.dat</add>
 <add source="libertyvisual\lv_moddef\timecyclemodifiers2.dat">\pc\data\timecyclemodifiers2.dat</add>
 <add source="libertyvisual\lv_moddef\timecyclemodifiers3.dat">\pc\data\timecyclemodifiers3.dat</add>
 <add source="libertyvisual\lv_moddef\timecyclemodifiers4.dat">\pc\data\timecyclemodifiers4.dat</add>

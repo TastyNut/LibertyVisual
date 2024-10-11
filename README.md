@@ -3,7 +3,7 @@
 This modification of GTA IVs graphics and textures aims to make the game as realistic looking as possible. <br>
 It achieves this through utilizing [ENB](http://enbdev.com/download.html) and [ReShade](https://reshade.me). <br>
 
-This mod was created by [Orange Brains](https://youtube.com/orangebrains), who hasn't shown a sign of activity since september of 2022. <br>
+This mod was created by [Orange Brains](https://github.com/TastyNut/LibertyVisual/tree/main?tab=readme-ov-file#credits), who hasn't shown a sign of activity since september of 2022. <br>
 The remaining team behind Liberty Visual decided to finish the mod and release it in the fall of 2024. <br>
 Join the Liberty Visual discord server for more information, help and updates. <br>
 <a href="https://discord.gg/ntppCPDQrV"><img src="https://img.shields.io/badge/discord-join-7289DA.svg?logo=discord&longCache=true&style=flat" /></a> <br>
@@ -54,7 +54,7 @@ through ReShade:
 - overhauled vehicle materials and textures - [see here](https://youtu.be/FE-jsLx7jOo)
 ## Credits
 
-[**Orange Brains**](https://youtube.com/orangebrains) - The original creator of the mod
+[**Orange Brains**](https://youtube.com/mrorangebrains) - The original creator of the mod
 
 The Team behind Liberty Visual:
 

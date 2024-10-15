@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package version="2.0" id="{016C0C53-AB1F-4BE7-A89B-4B920A44BE47}" target="IV">
+<metadata>
+<name>Liberty Visual - WPL Overhaul Add-On</name>
+<version>
+<major>1</major>
+<minor>0</minor>
+<tag>Stable</tag>
+</version>
+<author>
+<displayName>Joemoo</displayName>
+<web>https://www.youtube.com/channel/UCG8fBcdnPhiC6Fn73jr6DWQ</web>
+</author>
+<description><![CDATA[This optional add-on is a WPL overhaul by Vex, which adds different WPL placements and interactive objects all across Liberty City to make it more detailed.
+ 
+currently, it includes:
+• detail placements in Chinatown 
+• detail placements in Star Junction
+• detail placements in 
+
+
+PUBLIC RELEASE BUILD // FALL 2024
+CAN BE USED WITHOUT LIBERTY VISUAL
+DO NOT REDISTRIBUTE]]></description>
+</metadata>
+<colors>
+<headerBackground useBlackTextColor="True">$FFA0BEE6</headerBackground>
+<iconBackground>$FFA0BEE6</iconBackground>
+</colors>
+<content>
+
+<archive path="pc\data\maps\brook\brook_n.img" createIfNotExist="True" type="RPF7">
+<add source="libertyvisual\lv_modopts\mapwpl\brook_n_stream12.wpl">brook_n_stream12.wpl</add>
+</archive>
+
+
+<archive path="pc\data\maps\brook\brook_s.img" createIfNotExist="True" type="RPF7">
+<add source="libertyvisual\lv_modopts\mapwpl\brook_s_stream8.wpl">brook_s_stream8.wpl</add>
+</archive>
+
+<archive path="pc\data\maps\manhat\manhat01.img" createIfNotExist="True" type="RPF7">
+<add source="libertyvisual\lv_modopts\mapwpl\manhat01_stream2.wpl">manhat01_stream2.wpl</add>
+<add source="libertyvisual\lv_modopts\mapwpl\manhat01_stream3.wpl">manhat01_stream3.wpl</add>
+<add source="libertyvisual\lv_modopts\mapwpl\manhat01_stream4.wpl">manhat01_stream4.wpl</add>
+<add source="libertyvisual\lv_modopts\mapwpl\manhat01_stream5.wpl">manhat01_stream5.wpl</add>
+<add source="libertyvisual\lv_modopts\mapwpl\manhat01_stream6.wpl">manhat01_stream6.wpl</add>
+<add source="libertyvisual\lv_modopts\mapwpl\manhat01_stream7.wpl">manhat01_stream7.wpl</add>
+<add source="libertyvisual\lv_modopts\mapwpl\manhat01_stream8.wpl">manhat01_stream8.wpl</add>
+<add source="libertyvisual\lv_modopts\mapwpl\manhat01_stream9.wpl">manhat01_stream9.wpl</add>
+<add source="libertyvisual\lv_modopts\mapwpl\manhat01_stream10.wpl">manhat01_stream10.wpl</add>
+<add source="libertyvisual\lv_modopts\mapwpl\manhat01_stream11.wpl">manhat01_stream11.wpl</add>
+<add source="libertyvisual\lv_modopts\mapwpl\manhat01_stream12.wpl">manhat01_stream12.wpl</add>
+<add source="libertyvisual\lv_modopts\mapwpl\manhat01_stream13.wpl">manhat01_stream13.wpl</add>
+<add source="libertyvisual\lv_modopts\mapwpl\manhat01_stream14.wpl">manhat01_stream14.wpl</add>
+<add source="libertyvisual\lv_modopts\mapwpl\manhat01_stream15.wpl">manhat01_stream15.wpl</add>
+<add source="libertyvisual\lv_modopts\mapwpl\manhat01_stream16.wpl">manhat01_stream16.wpl</add>
+<add source="libertyvisual\lv_modopts\mapwpl\manhat01_stream17.wpl">manhat01_stream17.wpl</add>
+<add source="libertyvisual\lv_modopts\mapwpl\manhat01_stream18.wpl">manhat01_stream18.wpl</add>
+<add source="libertyvisual\lv_modopts\mapwpl\manhat01_stream19.wpl">manhat01_stream19.wpl</add>
+<add source="libertyvisual\lv_modopts\mapwpl\manhat01_stream20.wpl">manhat01_stream20.wpl</add>
+<add source="libertyvisual\lv_modopts\mapwpl\manhat01_stream21.wpl">manhat01_stream21.wpl</add>
+<add source="libertyvisual\lv_modopts\mapwpl\manhat01_stream22.wpl">manhat01_stream22.wpl</add>
+<add source="libertyvisual\lv_modopts\mapwpl\manhat01_stream23.wpl">manhat01_stream23.wpl</add>
+<add source="libertyvisual\lv_modopts\mapwpl\manhat01_stream24.wpl">manhat01_stream24.wpl</add>
+<add source="libertyvisual\lv_modopts\mapwpl\manhat01_stream25.wpl">manhat01_stream25.wpl</add>
+<add source="libertyvisual\lv_modopts\mapwpl\manhat01_stream26.wpl">manhat01_stream26.wpl</add>
+<add source="libertyvisual\lv_modopts\mapwpl\manhat01_stream27.wpl">manhat01_stream27.wpl</add>
+<add source="libertyvisual\lv_modopts\mapwpl\manhat01_stream28.wpl">manhat01_stream28.wpl</add>
+</archive>
+
+<archive path="pc\data\maps\manhat\manhat09.img" createIfNotExist="True" type="RPF7">
+<add source="libertyvisual\lv_modopts\mapwpl\manhat09_strbig0.wpl">manhat09_strbig0.wpl</add>
+<add source="libertyvisual\lv_modopts\mapwpl\manhat09_stream0.wpl">manhat09_stream0.wpl</add>
+<add source="libertyvisual\lv_modopts\mapwpl\manhat09_stream1.wpl">manhat09_stream1.wpl</add>
+<add source="libertyvisual\lv_modopts\mapwpl\manhat09_stream2.wpl">manhat09_stream2.wpl</add>
+<add source="libertyvisual\lv_modopts\mapwpl\manhat09_stream3.wpl">manhat09_stream3.wpl</add>
+<add source="libertyvisual\lv_modopts\mapwpl\manhat09_stream4.wpl">manhat09_stream4.wpl</add>
+<add source="libertyvisual\lv_modopts\mapwpl\manhat09_stream5.wpl">manhat09_stream5.wpl</add>
+<add source="libertyvisual\lv_modopts\mapwpl\manhat09_stream6.wpl">manhat09_stream6.wpl</add>
+<add source="libertyvisual\lv_modopts\mapwpl\manhat09_stream7.wpl">manhat09_stream7.wpl</add>
+<add source="libertyvisual\lv_modopts\mapwpl\manhat09_stream8.wpl">manhat09_stream8.wpl</add>
+<add source="libertyvisual\lv_modopts\mapwpl\manhat09_stream9.wpl">manhat09_stream9.wpl</add>
+</archive>
+
+<archive path="pc\data\maps\nj\nj_03.img" createIfNotExist="True" type="RPF7">
+<add source="libertyvisual\lv_modopts\mapwpl\nj_03_stream13.wpl">nj_03_stream13.wpl</add>
+</archive>
+
+<add source="libertyvisual\lv_modopts\mapwpl\modwip\manhat01.ide">\pc\data\maps\manhat\manhat01.ide</add>
+<add source="libertyvisual\lv_modopts\mapwpl\modwip\manhat01.wpl">\pc\data\maps\manhat\manhat01.wpl</add>
+<add source="libertyvisual\lv_modopts\mapwpl\modwip\manhat09.ide">\pc\data\maps\manhat\manhat09.ide</add>
+<add source="libertyvisual\lv_modopts\mapwpl\modwip\manhat09.wpl">\pc\data\maps\manhat\manhat09.wpl</add>
+</content>
+</package>

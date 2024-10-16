@@ -1,0 +1,16 @@
+///////////////// Liberty Visual PostFX File /////////////////
+//
+// Original file by		: 	Boris Vorontsov // enbdev.com
+// Using shadercode by	:	Rockstar Games, icelaglace
+// Edited & compiled by	: 	orangebrains
+//
+// !!! Do not redistribute !!!
+// !!! Not to be used without Liberty Visual !!!
+
+#include "enbeffect.fxh"
+float4 PS_LIBERTYVISUAL(VS_LVOUT l):COLOR{float4 u,v,w,x,y,z,uu,uv,vv,ww,xy,yx,zx,xx,yy,zz,xz,yz,zy=0.;static const float2 gh[12]={float2(-1.,1.),float2(1.,1.),float2(-1.,-1.),float2(1.,-1.),float2(0.,1.),float2(-1.,0.),float2(0.,-1.),float2(1.,0.),float2(-.5,.5),float2(.5,.5),float2(-.5,-.5),float2(.5,-.5)};static const float hg[12]={3.12500000e-002f,3.12500000e-002f,3.12500000e-002f,3.12500000e-002f,6.25000000e-002f,6.25000000e-002f,6.25000000e-002f,6.25000000e-002f,1.25000000e-001f,1.25000000e-001f,1.25000000e-001f,1.25000000e-001f};
+uv.xyz=float3(2.62700000e-001f,6.78000000e-001f,5.93000000e-002f);ww.xyz=float3(0.,0.,.2);u.xy=l.b.xy;zy=float4(u.xy,ww.yx);x=tex2Dlod(s1,zy);xx=tex2Dlod(s2,zy);vv.z=Timer.x;vv.xw=((u.xy+.125f)*2.50000000e+003);uu.w=vv.x*vv.w*vv.z;x.y=-_c77.x+_c77.y;x.y=rcp(x.y);x.z=x.y*_c77.y;x.z*=-_c77.x;x.x+=-x.y*_c77.y;x.x=rcp(x.x);x.y=x.x*x.z;x.w=abs(_c79.w);v=x.x*x.z-_c78.w;v+=-.5f*_c78.y;v+=148;x.x=1.;z.x=u.y*2.f-1.f;z.y=u.x*2.f-1.f;z.z=u.y*2.f-1.f;x.z=z.y*_c77.z;x.z*=x.y;xx.w=-z.x*_c77.w;xx.w*=x.y;zz.xyz=xx.w*_c73.xyz;zz.xyz+=x.z*_c72.xyz;
+zz.xyz+=-x.y*_c74.xyz;zz.xyz+=_c75.xyz;x.y=-zz.z*_c77.z;x.y=rcp(x.y);xy.x=x.y*zz.x;x.y=_c77.w*zz.z;x.y=rcp(x.y);xy.y=x.y*zz.y;x.yz=xy.xy-z.yz;x.y*=_c80.x;x.z*=_c80.x;z.xy=1.25000000e-001f*x.yz;zz=tex2Dlod(s6,zy);xx.w=zz.x-_c85.x;yy=xx;z.zw=8.f*yy.xy;z.zw+=u.xy*float2(5.81640015e+001f,4.71300011e+001f);zz=tex2Dlod(s5,zy);z.zw=z.xy*(zz.x-4.f)+u.xy;zz.xyz=yy.xyz;y.w=1.f;yy.w=1.f;for(int g=0;g<25;g++){xy.x=z.x*yy.w+z.z;xy.y=z.y*yy.w+z.w;xz=tex2Dlod(s6,float4(xy.xy,ww.yx));zz.w=xz.x-_c85.x;if(zz.w<-.3){zz.w=1.f;}else zz.w=0.f;
+xy=tex2Dlod(s2,float4(xy.xy,ww.yx));zz.xyz+=zz.w*xy.xyz;y.w+=zz.w;yy.w=yy.w+1.f;}y.w=rcp(y.w);x.y=x.y*_c44.x;x.z=x.z*_c44.y;x.y=dot(x.yz,x.yz);x.y=pow(x.y,.5f);x.y*=.5f;x.x+=1.;x.x=rcp(x.x);x.x=saturate(x.y*x.x);z.xyz=zz*y.w-yy;x.xyz=x.x*z+yy;if(-xx.w<0.)x.xyz=yy.xyz;if(-x.w<0.)x.xyz=xx.xyz;zz=tex2Dlod(s4,float4(u.xy,ww.xz));zz.w=max(0.f,zz.x);zz.w=clamp(zz.w,1.00000000e-006f,2.56000000e+002f);zz.w=rcp(zz.w);x.xyz*=zz.w;yy.xy=zz.w*float2(1.00000000e-002f,3.20000000e-001f);xz=.5f*tex2Dlod(s3,float4(u.xy,ww.yx));
+for(int h=0;h<12;h++){xz+=_c81.x*tex2Dlod(s3,float4(u.xy+gh[h]*_c76.xy,ww.xy))*hg[h];}xz*=.5f;uu.z=dot(xz.xyz,uv.yxz);vv.y=saturate(pow(v/_c82.y,1.f));xz.xyz*=_c83.xyz*j(_c81.y,9.96000000e-001f,vv.y);x+=xz*_c81.z;zx=dot(x.xyz,uv.yxz);yz.x=_c82.z*zx.x;zx.x=rcp(zx.x);zx*=yz.x;x*=zx.x;x*=1.00000000e-001f;xx=x*8.00000000e-001f;xx+=1.f;xx.xyz=rcp(xx.xyz);x*=xx;x+=_c82.x*xz*yy.x;uu.x=2.50000000e+001f*((fmod((fmod(uu.w,13.f))*(fmod(uu.w,123.f)),1.00000000e-002f)-5.00000000e-003f));uu.x=1.f-uu.x;uu.y=dot(x.xyz,uv.yxz);
+uu.x=lerp(uu.x,1.f,saturate(uu.y*2.f));x.xyz*=uu.x;x.xyz=lerp(x.xyz,i(6.50000000e+003)*x.xyz,1.f);w=x;x.w=1.f;return w;}technique Shader_C215BE6E{pass p0{PixelShader=compile ps_3_0 PS_LIBERTYVISUAL();}}

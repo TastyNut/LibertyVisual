@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package version="2.0" id="{0DD010EE-7C16-4234-90D4-3B58C9895EE2}" target="IV">
+<metadata>
+<name>Liberty Visual - Alternative ENB Preset</name>
+<version>
+<major>1</major>
+<minor>0</minor>
+<tag>Stable</tag>
+</version>
+<author>
+<displayName>orangebrains</displayName>
+<web>https://www.patreon.com/orangebrains</web>
+<facebook>mrorangebrains</facebook>
+<youtube>MrOrangebrains</youtube>
+</author>
+<description><![CDATA[Alternative preset for ENBSeries used in Liberty Visual. Install this if you want slightly brighter and more bloomy atmosphere with completely overhauled lighting.
+
+PATREON-EXCLUSIVE JUNE 2022 BUILD
+NOT TO BE USED WITHOUT LIBERTY VISUAL
+DO NOT REDISTRIBUTE]]></description>
+</metadata>
+<colors>
+<headerBackground useBlackTextColor="True">$FFA0BEE6</headerBackground>
+<iconBackground>$FFA0BEE6</iconBackground>
+</colors>
+<content>
+<add source="libertyvisual\lv_modopts\commandline.txt">commandline.txt</add>
+<add source="libertyvisual\lv_modopts\enbbloom.fx">enbbloom.fx</add>
+<add source="libertyvisual\lv_modopts\enbclouds.fx">enbclouds.fx</add>
+<add source="libertyvisual\lv_modopts\enbclouds.png">enbclouds.png</add>
+<add source="libertyvisual\lv_modopts\enbeffect.fx">enbeffect.fx</add>
+<add source="libertyvisual\lv_modopts\enbeffect.fxh">enbeffect.fxh</add>
+<add source="libertyvisual\lv_modopts\enbseries.ini">enbseries.ini</add>
+<add source="libertyvisual\lv_modopts\LibertyVisual.ini">\reshade-shaders\Presets\LibertyVisual.ini</add>
+<add source="libertyvisual\lv_modopts\timecyc.dat">\pc\data\timecyc.dat</add>
+</content>
+</package>

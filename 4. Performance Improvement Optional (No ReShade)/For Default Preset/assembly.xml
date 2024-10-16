@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package version="2.0" id="{0DD010EE-7C16-4234-90D4-3B58C9895EE2}" target="IV">
+<metadata>
+<name>Liberty Visual - Performance Workaround (for Main Preset)</name>
+<version>
+<major>1</major>
+<minor>0</minor>
+<tag>Stable</tag>
+</version>
+<author>
+<displayName>orangebrains</displayName>
+<web>https://www.patreon.com/orangebrains</web>
+<facebook>mrorangebrains</facebook>
+<youtube>MrOrangebrains</youtube>
+</author>
+<description><![CDATA["Performance Workaround" add-on - reconfigured ENBSeries preset, which does not need ReShade to be used. Notice that some visual aspects (e.g. AO) will be completely different to the original Liberty Visual. Install this only if you have immensely terrible performance.
+
+!!NOTE!!
+THIS INSTALLER IS FOR THE MAIN PRESET]]></description>
+</metadata>
+<colors>
+<headerBackground useBlackTextColor="True">$FFA0BEE6</headerBackground>
+<iconBackground>$FFA0BEE6</iconBackground>
+</colors>
+<content>
+<add source="libertyvisual\lv_modopts\enbbloom.fx">enbbloom.fx</add>
+<add source="libertyvisual\lv_modopts\enbeffect.fx">enbeffect.fx</add>
+<add source="libertyvisual\lv_modopts\enbseries.ini">enbseries.ini</add>
+<add source="libertyvisual\lv_modopts\timecyc.dat">\pc\data\timecyc.dat</add>
+</content>
+</package>

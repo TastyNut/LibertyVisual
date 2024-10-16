@@ -52,6 +52,18 @@ through ReShade:
 
 ### Vehicles
 - overhauled vehicle materials and textures - [see here](https://youtu.be/FE-jsLx7jOo)
+
+## Optional Features
+
+### Eyecandy Version - Alternative ENB Preset
+
+### Project 2DFX Configuration
+
+### Performance Improvement - No ReShade Preset
+
+### WPL Overhaul - More Details in Game
+
+
 ## Credits
 
 [**Orange Brains**](https://youtube.com/mrorangebrains) - The original creator of the mod
@@ -68,7 +80,8 @@ The Team behind Liberty Visual:
 
 The generous Donors:
 
-- Libertonians - <br>
+*Libertonians* <br>
+
 • Air
 • Anathlyst
 • azakir

@@ -29,12 +29,12 @@ DO NOT REDISTRIBUTE]]></description>
 </colors>
 <content>
 
-<archive path="pc\data\maps\brook\brook_n.img" createIfNotExist="True" type="RPF7">
+<archive path="pc\data\maps\east\brook_n.img" createIfNotExist="True" type="RPF7">
 <add source="libertyvisual\lv_modopts\mapwpl\brook_n_stream12.wpl">brook_n_stream12.wpl</add>
 </archive>
 
 
-<archive path="pc\data\maps\brook\brook_s.img" createIfNotExist="True" type="RPF7">
+<archive path="pc\data\maps\east\brook_s.img" createIfNotExist="True" type="RPF7">
 <add source="libertyvisual\lv_modopts\mapwpl\brook_s_stream8.wpl">brook_s_stream8.wpl</add>
 </archive>
 
@@ -82,7 +82,7 @@ DO NOT REDISTRIBUTE]]></description>
 <add source="libertyvisual\lv_modopts\mapwpl\manhat09_stream9.wpl">manhat09_stream9.wpl</add>
 </archive>
 
-<archive path="pc\data\maps\nj\nj_03.img" createIfNotExist="True" type="RPF7">
+<archive path="pc\data\maps\jersey\nj_03.img" createIfNotExist="True" type="RPF7">
 <add source="libertyvisual\lv_modopts\mapwpl\nj_03_stream13.wpl">nj_03_stream13.wpl</add>
 </archive>
 

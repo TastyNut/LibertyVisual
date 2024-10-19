@@ -111,6 +111,7 @@ Also huge thanks to longtime Patreon supporters:
 <add source="libertyvisual\lv_modmain\ReShade.ini">ReShade.ini</add>
 <add source="libertyvisual\lv_modmain\visualSettings.dat">\common\data\visualSettings.dat</add>
 <add source="libertyvisual\lv_modmain\timecyc.dat">\pc\data\timecyc.dat</add>
+<add source="libertyvisual\lv_modmain\gta_wire.sps">\common\shaders\db\gta_wire.sps</add>
 <add source="libertyvisual\lv_modmain\gtaRainEmitter.xml">\pc\data\effects\gtaRainEmitter.xml</add>
 <add source="libertyvisual\lv_modmain\gtaRainRender.xml">\pc\data\effects\gtaRainRender.xml</add>
 <add source="libertyvisual\lv_modmain\gtaStormEmitter.xml">\pc\data\effects\gtaStormEmitter.xml</add>

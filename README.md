@@ -24,7 +24,7 @@ either
 
 > Clone your game directory to a different path
 
-> Drag the content of the folder in the ["LibertyVisual.Zip"](https://github.com/) to your "Grand Theft Auto IV" root directory, where the executable file ("GTAIV.exe") is located.
+> Drag the content of the folder in the ["LibertyVisual.Zip"](https://github.com/) to your "Grand Theft Auto IV" root directory.
 
 > Use [OpenIV]() to install the ["LibertyVisual.oiv"](https://github.com/) (not needed, but it brings some nice fixes and improvements)
 
@@ -84,10 +84,10 @@ This Replaces LOD-Lights with 2D ones, increasing the range of lod-lights being 
 
 ### Different Performance Settings
 There are 3 different configs for ReShade.
-"LOW" is the config you should use if your Vanilla Game already struggles to run at 1080p/60FPS
-"default" is meant to be Playable on fairly modern Hardware at 4K with a fluid framerate.
-"HIGH" is the Screenshot Preset for higher end machines, stable frame rates be gone.
-"MAX" is the best you can get out of ReShade. You probably need a NASA-Machine to have your game even launch with this!
+- "LOW" is the config you should use if your Vanilla Game already struggles to run at 1080p/60FPS
+- "default" is meant to be Playable on fairly modern Hardware at 4K with a fluid framerate.
+- "HIGH" is the Screenshot Preset for higher end machines, stable frame rates be gone.
+- "MAX" is the best you can get out of ReShade. You probably need a NASA-Machine to have your game even launch with this!
 
 #### Installation:
 

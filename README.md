@@ -20,6 +20,8 @@ Join the Liberty Visual discord server for more information, help and updates. <
 
 > Download Grand Theft Auto IV: The Complete Edition
 
+either
+
 > Clone your game directory to a different path
 
 > Drag the content of the folder in the ["LibertyVisual.Zip"](https://github.com/) to your "Grand Theft Auto IV" root directory, where the executable file ("GTAIV.exe") is located.
@@ -27,6 +29,8 @@ Join the Liberty Visual discord server for more information, help and updates. <
 > Use [OpenIV]() to install the ["LibertyVisual.oiv"](https://github.com/) (not needed, but it brings some nice fixes and improvements)
 
 > Install any [Optionals](https://github.com/)
+
+~~or use the Installer and follow its instructions **(coming soon)**~~
 
 > Run PlayGTAIV.exe inside your modded Directory
 
@@ -55,6 +59,15 @@ through ReShade:
 ## Optional Features
 
 ### Eyecandy Version - Alternative ENB Preset
+This is an alternative version of the mod. <br>
+If the main version aims to be the most realistic, this could be described as looking like your memory of a realistic look. <br>
+
+#### Installation:
+
+> Download the Archive 
+
+> Drag and Drop the content inside the folder in the archive into your game's directory
+
 
 ### Project 2DFX Configuration
 

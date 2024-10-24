@@ -22,14 +22,13 @@ Join the Liberty Visual discord server for more information, help and updates. <
 
 > Clone your game directory to a different path
 
-> [Download the downgrader](https://github.com/ClonkAndre/GTAIVDowngrader/releases/download/v2.1/IVDowngrader.v2.1.zip)
+> Drag the content of the folder in the ["LibertyVisual.Zip"](https://github.com/) to your "Grand Theft Auto IV" root directory, where the executable file ("GTAIV.exe") is located.
 
-> Downgrade your cloned directory to the version supported by the mod (curenntly 1.0.4.0 only) 
+> Use [OpenIV]() to install the ["LibertyVisual.oiv"](https://github.com/) (not needed, but it brings some nice fixes and improvements)
 
-> [Download the latest mod release](https://github.com/ClonkAndre/GTAIVDowngrader/releases/download/)
+> Install any [Optionals](https://github.com/)
 
-> Unpack the the mod archive to your "Grand Theft Auto IV" root directory, where the executable file ("GTAIV.exe") is located.
-
+> Run PlayGTAIV.exe inside your modded Directory
 
 ## Mod Features
 

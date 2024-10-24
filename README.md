@@ -60,21 +60,57 @@ through ReShade:
 
 ### Eyecandy Version - Alternative ENB Preset
 This is an alternative version of the mod. <br>
-If the main version aims to be the most realistic, this could be described as looking like your memory of a realistic look. <br>
+The main version aims to be realistic looking, this could be described as looking like your memory of a realistic look. <br>
 
 #### Installation:
 
 > Download the Archive 
 
-> Drag and Drop the content inside the folder in the archive into your game's directory
+> Drag and Drop the files inside the folder in the archive into your game's directory
 
+<br>
 
 ### Project 2DFX Configuration
+A configuration for Project 2dfx.
+This Replaces LOD-Lights with 2D ones, increasing the range of lod-lights being rendered.
 
-### Performance Improvement - No ReShade Preset
+#### Installation:
+
+> Download the Archive 
+
+> Drag and Drop the files inside the folder in the archive into your game's directory
+
+<br>
+
+### Different Performance Settings
+There are 3 different configs for ReShade.
+"LOW" is the config you should use if your Vanilla Game already struggles to run at 1080p/60FPS
+"default" is meant to be Playable on fairly modern Hardware at 4K with a fluid framerate.
+"HIGH" is the Screenshot Preset for higher end machines, stable frame rates be gone.
+"MAX" is the best you can get out of ReShade. You probably need a NASA-Machine to have your game even launch with this!
+
+#### Installation:
+
+> Download the Archive 
+
+> Drag and Drop the config you choose out of the folder in the archive into your game's directory
+
+<br>
 
 ### WPL Overhaul - More Details in Game
+Joemoo added some nice Details to selected areas of the map.
+currently these are:
+- detail placements in Chinatown
+- detail placements in Star Junction
+- detail placements in Acter Industrial
+- detail placements at Funland in Hove Beach / Firefly Island
+- detail placements in Downtown Broker
 
+> Download the Archive 
+
+> Use OpenIV to Install the .oiv into your modded directory
+
+<br>
 
 ## Credits
 

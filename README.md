@@ -24,9 +24,9 @@ either
 
 > Clone your game directory to a different path
 
-> Drag the content of the folder in the ["LibertyVisual.Zip"](https://github.com/TastyNut/LibertyVisual/releases/download/v0.9999/LV_Main.zip) to your "Grand Theft Auto IV" root directory.
+> Drag the content of the folder in the ["LV_Main.zip"](https://github.com/TastyNut/LibertyVisual/releases/download/v0.9999/LV_Main.zip) to your "Grand Theft Auto IV" root directory.
 
-> Use [OpenIV]() to install the ["LibertyVisual.oiv"](https://github.com/TastyNut/LibertyVisual/releases/download/v0.9999/LV_Map.oiv) ***(not needed, but it makes wires reflect properly, not completed)***
+> Use [OpenIV]() to install the ["LV_Map.oiv"](https://github.com/TastyNut/LibertyVisual/releases/download/v0.9999/LV_Map.oiv) ***(not needed, but it makes wires reflect properly, not completed)***
 
 > Install any [Optionals](https://github.com/TastyNut/LibertyVisual?tab=readme-ov-file#optional-features)
 

@@ -24,11 +24,13 @@ either
 
 > Clone your game directory to a different path
 
-> Drag the content of the folder in the ["LibertyVisual.Zip"](https://github.com/) to your "Grand Theft Auto IV" root directory.
+> Drag the content of the folder in the ["LibertyVisual.Zip"](https://github.com/TastyNut/LibertyVisual/releases/download/v0.9999/LV_Main.zip) to your "Grand Theft Auto IV" root directory.
 
-> Use [OpenIV]() to install the ["LibertyVisual.oiv"](https://github.com/) (not needed, but it brings some nice fixes and improvements)
+> Use [OpenIV]() to install the ["LibertyVisual.oiv"](https://github.com/TastyNut/LibertyVisual/releases/download/v0.9999/LV_Map.oiv) ***(not needed, but it makes wires reflect properly, not completed)***
 
-> Install any [Optionals](https://github.com/)
+> Install any [Optionals](https://github.com/TastyNut/LibertyVisual?tab=readme-ov-file#optional-features)
+
+> Optionally, if your PC can handle it, install the [RTGI shader](https://www.patreon.com/posts/rtgi-0-17-0-2-43343635?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_fan&utm_content=web_share) for ReShade. 
 
 ~~or use the Installer and follow its instructions **(coming soon)**~~
 
@@ -64,7 +66,7 @@ The main version aims to be realistic looking, this could be described as lookin
 
 #### Installation:
 
-> Download the Archive 
+> Download the [Archive](https://github.com/TastyNut/LibertyVisual/releases/download/v0.9999/LV_Alternative.zip) 
 
 > Drag and Drop the files inside the folder in the archive into your game's directory
 
@@ -72,26 +74,30 @@ The main version aims to be realistic looking, this could be described as lookin
 
 ### Project 2DFX Configuration
 A configuration for Project 2dfx.
-This Replaces LOD-Lights with 2D ones, increasing the range of lod-lights being rendered.
+This Replaces original LOD-Lights with 2D ones, increasing the range of lod-lights being rendered.
 
 #### Installation:
 
-> Download the Archive 
+> Download the [Archive](https://github.com/TastyNut/LibertyVisual/releases/download/v0.9999/LV_2DFX.zip) 
 
 > Drag and Drop the files inside the folder in the archive into your game's directory
 
 <br>
 
 ### Different Performance Settings
-There are 3 different configs for ReShade.
+There are 4 different configs for ReShade.
 - "LOW" is the config you should use if your Vanilla Game already struggles to run at 1080p/60FPS
 - "default" is meant to be Playable on fairly modern Hardware at 4K with a fluid framerate.
 - "HIGH" is the Screenshot Preset for higher end machines, stable frame rates be gone.
 - "MAX" is the best you can get out of ReShade. You probably need a NASA-Machine to have your game even launch with this!
 
+If "LOW" still is too much for your PC to handle,<br>
+you can either try to change values inside ReShade effects yourself (PRESS F1 IN GAME)<br>
+or choose to completely disable ReShade.
+
 #### Installation:
 
-> Download the Archive 
+> Download the [Archive](https://github.com/TastyNut/LibertyVisual/releases/download/v0.9999/LV_CONFIG.zip) 
 
 > Drag and Drop the config you choose out of the folder in the archive into your game's directory
 
@@ -106,7 +112,9 @@ currently these are:
 - detail placements at Funland in Hove Beach / Firefly Island
 - detail placements in Downtown Broker
 
-> Download the Archive 
+#### Installation:
+
+> Download the [Archive](https://github.com/TastyNut/LibertyVisual/releases/download/v0.9999/LV_WPL.oiv) 
 
 > Use OpenIV to Install the .oiv into your modded directory
 
@@ -120,29 +128,136 @@ The Team behind Liberty Visual:
 
 [**DayL**](https://discord.gg/F2NZwbCzmX) finished the timecyc for the Public Release
 
-**Joemoo** is doing the awesome WPL stuff. (placement of new objects and details in the game)
+[**Joemoo**](https://www.youtube.com/Joemoo.) is doing the awesome WPL stuff. (placement of new objects and details in the game)
 
 **BisonSales** is the guy behind [Project RevIVe](https://discord.gg/Bn99sJX7hb) (vegetation and texture ttuff)
 
 [**Tasty Nut**](https://youtube.com/tastynut) is maintaining the GitHub Repository.
 
-The generous Donors:
+Important People:
+[Boris Vorontsov](https://www.patreon.com/enb) for creating ENBSeries
+[crosire](https://patreon.com/crosire) for creating ReShade
+[The People at Rockstar Games](https://in.linkedin.com/company/rockstar-games) for making Grand Theft Auto IV
 
-*Libertonians* <br>
+The generous Donors and other Supporters:
 
-• Air
-• Anathlyst
-• azakir
-• DavyDarko
-• DonBo
-• Internet Rob
-• Malik Hatsune
-• Nozbig
-• Orangeflea215
-• Raekwon
-• Rifte
-• RockaHorse
-• saffronbun
-• scx1125
-• Teneom
-• Tasty Nut
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 

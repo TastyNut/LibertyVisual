@@ -135,8 +135,11 @@ The Team behind Liberty Visual:
 [**Tasty Nut**](https://youtube.com/tastynut) is maintaining the GitHub Repository.
 
 Important People:
+
 [Boris Vorontsov](https://www.patreon.com/enb) for creating ENBSeries
+
 [crosire](https://patreon.com/crosire) for creating ReShade
+
 [The People at Rockstar Games](https://in.linkedin.com/company/rockstar-games) for making Grand Theft Auto IV
 
 The generous Donors and other Supporters:

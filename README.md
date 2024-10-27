@@ -51,6 +51,13 @@ through ReShade:
 - Screen-Space Reflections
 - Ambient Light
 
+#### ReShade Settings
+There are 4 different configs for ReShade.
+- "LOW" is the config you should use if your Vanilla Game already struggles to run at 1080p/60FPS
+- "default" is meant to be Playable on fairly modern Hardware at 4K with a fluid framerate.
+- "HIGH" is the Screenshot Preset for higher end machines, stable frame rates be gone.
+- "MAX" is the best you can get out of ReShade. You probably need a NASA-Machine to have your game even launch with this!
+
 ### Textures
 - overhauled various textures to be higher in quality - [see here](https://flic.kr/s/aHskQKJgMY)
 - added parallax mapping to various textures - [see here](https://flic.kr/s/aHsmMxWVVi)

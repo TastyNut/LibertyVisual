@@ -84,20 +84,13 @@ This Replaces original LOD-Lights with 2D ones, increasing the range of lod-ligh
 
 <br>
 
-### Different Performance Settings
-There are 4 different configs for ReShade.
-- "LOW" is the config you should use if your Vanilla Game already struggles to run at 1080p/60FPS
-- "default" is meant to be Playable on fairly modern Hardware at 4K with a fluid framerate.
-- "HIGH" is the Screenshot Preset for higher end machines, stable frame rates be gone.
-- "MAX" is the best you can get out of ReShade. You probably need a NASA-Machine to have your game even launch with this!
-
-If "LOW" still is too much for your PC to handle,<br>
-you can either try to change values inside ReShade effects yourself (PRESS F1 IN GAME)<br>
-or choose to completely disable ReShade.
+### Performance Workaround
+If the ReShade config "LOW" is too much for your PC to handle,<br>
+you may choose to completely disable ReShade with this.
 
 #### Installation:
 
-> Download the [Archive](https://github.com/TastyNut/LibertyVisual/releases/download/v0.9999/LV_CONFIG.zip) 
+> Download the [Archive](https://github.com/TastyNut/LibertyVisual/releases/download/v0.9999/LV_Config.zip) 
 
 > Drag and Drop the config you choose out of the folder in the archive into your game's directory
 

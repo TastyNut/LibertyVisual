@@ -132,7 +132,7 @@ The Team behind Liberty Visual:
 
 **BisonSales** is the guy behind [Project RevIVe](https://discord.gg/Bn99sJX7hb) (vegetation and texture work)
 
-[**Tasty Nut**](https://youtube.com/tastynut) is maintaining the Mod. (if any issues occur [open an issue]() here on GitHub)
+[**Tasty Nut**](https://youtube.com/tastynut) is maintaining the Mod. (if any issues occur [open an issue](https://github.com/TastyNut/LibertyVisual/issues) here on GitHub)
 
 Important People:
 

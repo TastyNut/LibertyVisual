@@ -130,9 +130,9 @@ The Team behind Liberty Visual:
 
 [**Joemoo**](https://www.youtube.com/Joemoo.) is doing the awesome WPL stuff. (placement of new objects and details in the game)
 
-**BisonSales** is the guy behind [Project RevIVe](https://discord.gg/Bn99sJX7hb) (vegetation and texture ttuff)
+**BisonSales** is the guy behind [Project RevIVe](https://discord.gg/Bn99sJX7hb) (vegetation and texture work)
 
-[**Tasty Nut**](https://youtube.com/tastynut) is maintaining the GitHub Repository.
+[**Tasty Nut**](https://youtube.com/tastynut) is maintaining the Mod. (if any issues occur [open an issue]() here on GitHub)
 
 Important People:
 

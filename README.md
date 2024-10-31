@@ -24,9 +24,9 @@ either
 
 > Clone your game directory to a different path
 
-> Drag the content of the folder in the ["LV_Main.zip"](https://github.com/TastyNut/LibertyVisual/releases/download/v0.9999/LV_Main.zip) to your "Grand Theft Auto IV" root directory.
+> Drag the content of the folder in the ["LV_Main.zip"](https://github.com/TastyNut/LibertyVisual/releases/download/v1.0/LV_Main.zip) to your "Grand Theft Auto IV" root directory.
 
-> Use [OpenIV]() to install the ["LV_Map.oiv"](https://github.com/TastyNut/LibertyVisual/releases/download/v0.9999/LV_Map.oiv) ***(not needed, but it makes wires reflect properly, not completed)***
+> Use [OpenIV]() to install the ["LV_Map.oiv"](https://github.com/TastyNut/LibertyVisual/releases/download/v1.0/LV_Map.oiv) ***(not needed, but it makes wires reflect properly, not completed)***
 
 > Install any [Optionals](https://github.com/TastyNut/LibertyVisual?tab=readme-ov-file#optional-features)
 
@@ -73,7 +73,7 @@ The main version aims to be realistic looking, this could be described as lookin
 
 #### Installation:
 
-> Download the [Archive](https://github.com/TastyNut/LibertyVisual/releases/download/v0.9999/LV_Alternative.zip) 
+> Download the [Archive](https://github.com/TastyNut/LibertyVisual/releases/download/v1.0/LV_Alternative.zip) 
 
 > Drag and Drop the files inside the folder in the archive into your game's directory
 
@@ -85,7 +85,7 @@ This Replaces original LOD-Lights with 2D ones, increasing the range of lod-ligh
 
 #### Installation:
 
-> Download the [Archive](https://github.com/TastyNut/LibertyVisual/releases/download/v0.9999/LV_2DFX.zip) 
+> Download the [Archive](https://github.com/TastyNut/LibertyVisual/releases/download/v1.0/LV_2DFX.zip) 
 
 > Drag and Drop the files inside the folder in the archive into your game's directory
 
@@ -97,7 +97,7 @@ you may choose to completely disable ReShade with this.
 
 #### Installation:
 
-> Download the [Archive](https://github.com/TastyNut/LibertyVisual/releases/download/v0.9999/LV_Config.zip) 
+> Download the [Archive](https://github.com/TastyNut/LibertyVisual/releases/download/v1.0/LV_Config.zip) 
 
 > Drag and Drop the config you choose out of the folder in the archive into your game's directory
 
@@ -114,7 +114,7 @@ currently these are:
 
 #### Installation:
 
-> Download the [Archive](https://github.com/TastyNut/LibertyVisual/releases/download/v0.9999/LV_WPL.oiv) 
+> Download the [Archive](https://github.com/TastyNut/LibertyVisual/releases/download/v1.0/LV_WPL.oiv) 
 
 > Use OpenIV to Install the .oiv into your modded directory
 

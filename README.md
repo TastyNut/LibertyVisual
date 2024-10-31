@@ -13,7 +13,7 @@ Join the Liberty Visual discord server for more information, help and updates. <
 > [!IMPORTANT]
 > This mod, in its current form, is not meant for doing a playthrough of the game.<br>
 > It enhances the games visuals for video and/or screenshot purposes.<br>
-> If you want to play through GTA IV and EFLC, the best way to do it is [-this-](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix?tab=readme-ov-file#gtaiveflcfusionfix).<br>
+> If you want to play through GTA IV and EFLC, the best way to do it is [-this-](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix#readme).<br>
 
 
 ## Installation:

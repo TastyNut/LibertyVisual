@@ -120,7 +120,23 @@ currently these are:
 
 <br>
 
+### DayL's Improved Map Props
+DayL made this as a light Version of his Project Glass and Project Lights Mod. <br>
+Since the full versions might look strange with ENB mods,
+you can download this instead. <br>
+
+More Info on [DayL's Discord Server](https://discord.gg/F2NZwbCzmX)
+
+#### Installation:
+
+> Download the [Archive](https://cdn.discordapp.com/attachments/1110470913725579264/1301482182384025661/DAYL_IMPROVEMENTS.zip?ex=6724a33c&is=672351bc&hm=3c2bd8b7828d8e71c1f3f94c95b0cf92202224be43253bcaa10ef04181c62b06&) 
+
+> Install as specified in the readme.txt files inside the archive
+
+<br>
+
 ## Credits
+(The @ Tags are their Discord Tags)
 
 [**Orange Brains**](https://youtube.com/mrorangebrains) - The original creator of the mod
 
@@ -142,6 +158,16 @@ Important People:
 
 [The People at Rockstar Games](https://in.linkedin.com/company/rockstar-games) for making Grand Theft Auto IV
 
+And:
+
+[Pascal Glitcher](https://www.patreon.com/mcflypg/)
+The Sandvich Maker
+[icelaglace](https://icelaglace.com/)
+DKT70
+@doenitz
+@seath
+@siema1eniu
+@houthipatriot26
 
 The generous Donors and other Supporters:
 ```
@@ -159,6 +185,7 @@ The generous Donors and other Supporters:
 • @.tenus
 • @midnighttosix
 • @callup
+• @mouammar
 • @sgt_rphl
 • @gogglevivian
 • @dartro
